@@ -1,0 +1,2062 @@
+{
+  "experiment": "dual_channel_lexicon_biobert_sapbert",
+  "best_parameters": {
+    "ner_threshold": 0.75,
+    "replace_threshold": 1.0,
+    "dense_threshold": 0.9,
+    "agreement_threshold": 0.95,
+    "containment_threshold": 0.95
+  },
+  "best_metrics": {
+    "mention": {
+      "true_positive": 790,
+      "false_positive": 235,
+      "false_negative": 406,
+      "precision": 0.7707317073170732,
+      "recall": 0.6605351170568562,
+      "f1": 0.7113912651958576
+    },
+    "document": {
+      "true_positive": 384,
+      "false_positive": 68,
+      "false_negative": 171,
+      "precision": 0.8495575221238938,
+      "recall": 0.6918918918918919,
+      "f1": 0.76266137040715
+    },
+    "diagnostics": {
+      "boundary_overlap_errors": 98,
+      "identifier_errors_at_exact_boundary": 24,
+      "gold_negated": 32,
+      "gold_compound": 16,
+      "gold_no_id": 26
+    }
+  },
+  "grid": [
+    {
+      "ner_threshold": 0.65,
+      "replace_threshold": 1.0,
+      "dense_threshold": 0.85,
+      "agreement_threshold": 0.9,
+      "containment_threshold": 0.8,
+      "mention_f1": 0.695201037613489,
+      "document_f1": 0.7571157495256168
+    },
+    {
+      "ner_threshold": 0.65,
+      "replace_threshold": 1.0,
+      "dense_threshold": 0.85,
+      "agreement_threshold": 0.9,
+      "containment_threshold": 0.85,
+      "mention_f1": 0.6969303934284479,
+      "document_f1": 0.7571157495256168
+    },
+    {
+      "ner_threshold": 0.65,
+      "replace_threshold": 1.0,
+      "dense_threshold": 0.85,
+      "agreement_threshold": 0.9,
+      "containment_threshold": 0.9,
+      "mention_f1": 0.7003891050583656,
+      "document_f1": 0.7578347578347578
+    },
+    {
+      "ner_threshold": 0.65,
+      "replace_threshold": 1.0,
+      "dense_threshold": 0.85,
+      "agreement_threshold": 0.9,
+      "containment_threshold": 0.95,
+      "mention_f1": 0.6995244271508864,
+      "document_f1": 0.7639810426540284
+    },
+    {
+      "ner_threshold": 0.65,
+      "replace_threshold": 1.0,
+      "dense_threshold": 0.85,
+      "agreement_threshold": 0.9,
+      "containment_threshold": 1.0,
+      "mention_f1": 0.6900129701686121,
+      "document_f1": 0.74784276126558
+    },
+    {
+      "ner_threshold": 0.65,
+      "replace_threshold": 1.0,
+      "dense_threshold": 0.85,
+      "agreement_threshold": 0.95,
+      "containment_threshold": 0.8,
+      "mention_f1": 0.695201037613489,
+      "document_f1": 0.7571157495256168
+    },
+    {
+      "ner_threshold": 0.65,
+      "replace_threshold": 1.0,
+      "dense_threshold": 0.85,
+      "agreement_threshold": 0.95,
+      "containment_threshold": 0.85,
+      "mention_f1": 0.6969303934284479,
+      "document_f1": 0.7571157495256168
+    },
+    {
+      "ner_threshold": 0.65,
+      "replace_threshold": 1.0,
+      "dense_threshold": 0.85,
+      "agreement_threshold": 0.95,
+      "containment_threshold": 0.9,
+      "mention_f1": 0.7003891050583656,
+      "document_f1": 0.7578347578347578
+    },
+    {
+      "ner_threshold": 0.65,
+      "replace_threshold": 1.0,
+      "dense_threshold": 0.85,
+      "agreement_threshold": 0.95,
+      "containment_threshold": 0.95,
+      "mention_f1": 0.7012537829658453,
+      "document_f1": 0.7639810426540284
+    },
+    {
+      "ner_threshold": 0.65,
+      "replace_threshold": 1.0,
+      "dense_threshold": 0.85,
+      "agreement_threshold": 0.95,
+      "containment_threshold": 1.0,
+      "mention_f1": 0.691742325983571,
+      "document_f1": 0.74784276126558
+    },
+    {
+      "ner_threshold": 0.65,
+      "replace_threshold": 1.0,
+      "dense_threshold": 0.85,
+      "agreement_threshold": 1.0,
+      "containment_threshold": 0.8,
+      "mention_f1": 0.695201037613489,
+      "document_f1": 0.7571157495256168
+    },
+    {
+      "ner_threshold": 0.65,
+      "replace_threshold": 1.0,
+      "dense_threshold": 0.85,
+      "agreement_threshold": 1.0,
+      "containment_threshold": 0.85,
+      "mention_f1": 0.6969303934284479,
+      "document_f1": 0.7571157495256168
+    },
+    {
+      "ner_threshold": 0.65,
+      "replace_threshold": 1.0,
+      "dense_threshold": 0.85,
+      "agreement_threshold": 1.0,
+      "containment_threshold": 0.9,
+      "mention_f1": 0.7003891050583656,
+      "document_f1": 0.7578347578347578
+    },
+    {
+      "ner_threshold": 0.65,
+      "replace_threshold": 1.0,
+      "dense_threshold": 0.85,
+      "agreement_threshold": 1.0,
+      "containment_threshold": 0.95,
+      "mention_f1": 0.7012537829658453,
+      "document_f1": 0.7639810426540284
+    },
+    {
+      "ner_threshold": 0.65,
+      "replace_threshold": 1.0,
+      "dense_threshold": 0.85,
+      "agreement_threshold": 1.0,
+      "containment_threshold": 1.0,
+      "mention_f1": 0.6900129701686121,
+      "document_f1": 0.74784276126558
+    },
+    {
+      "ner_threshold": 0.65,
+      "replace_threshold": 1.0,
+      "dense_threshold": 0.9,
+      "agreement_threshold": 0.9,
+      "containment_threshold": 0.8,
+      "mention_f1": 0.7025089605734767,
+      "document_f1": 0.7556874381800198
+    },
+    {
+      "ner_threshold": 0.65,
+      "replace_threshold": 1.0,
+      "dense_threshold": 0.9,
+      "agreement_threshold": 0.9,
+      "containment_threshold": 0.85,
+      "mention_f1": 0.7034050179211468,
+      "document_f1": 0.7556874381800198
+    },
+    {
+      "ner_threshold": 0.65,
+      "replace_threshold": 1.0,
+      "dense_threshold": 0.9,
+      "agreement_threshold": 0.9,
+      "containment_threshold": 0.9,
+      "mention_f1": 0.7069892473118279,
+      "document_f1": 0.7564356435643563
+    },
+    {
+      "ner_threshold": 0.65,
+      "replace_threshold": 1.0,
+      "dense_threshold": 0.9,
+      "agreement_threshold": 0.9,
+      "containment_threshold": 0.95,
+      "mention_f1": 0.7069892473118279,
+      "document_f1": 0.7608695652173914
+    },
+    {
+      "ner_threshold": 0.65,
+      "replace_threshold": 1.0,
+      "dense_threshold": 0.9,
+      "agreement_threshold": 0.9,
+      "containment_threshold": 1.0,
+      "mention_f1": 0.6980286738351253,
+      "document_f1": 0.747011952191235
+    },
+    {
+      "ner_threshold": 0.65,
+      "replace_threshold": 1.0,
+      "dense_threshold": 0.9,
+      "agreement_threshold": 0.95,
+      "containment_threshold": 0.8,
+      "mention_f1": 0.7025089605734767,
+      "document_f1": 0.7556874381800198
+    },
+    {
+      "ner_threshold": 0.65,
+      "replace_threshold": 1.0,
+      "dense_threshold": 0.9,
+      "agreement_threshold": 0.95,
+      "containment_threshold": 0.85,
+      "mention_f1": 0.7034050179211468,
+      "document_f1": 0.7556874381800198
+    },
+    {
+      "ner_threshold": 0.65,
+      "replace_threshold": 1.0,
+      "dense_threshold": 0.9,
+      "agreement_threshold": 0.95,
+      "containment_threshold": 0.9,
+      "mention_f1": 0.7069892473118279,
+      "document_f1": 0.7564356435643563
+    },
+    {
+      "ner_threshold": 0.65,
+      "replace_threshold": 1.0,
+      "dense_threshold": 0.9,
+      "agreement_threshold": 0.95,
+      "containment_threshold": 0.95,
+      "mention_f1": 0.7096774193548387,
+      "document_f1": 0.7608695652173914
+    },
+    {
+      "ner_threshold": 0.65,
+      "replace_threshold": 1.0,
+      "dense_threshold": 0.9,
+      "agreement_threshold": 0.95,
+      "containment_threshold": 1.0,
+      "mention_f1": 0.7007168458781362,
+      "document_f1": 0.747011952191235
+    },
+    {
+      "ner_threshold": 0.65,
+      "replace_threshold": 1.0,
+      "dense_threshold": 0.9,
+      "agreement_threshold": 1.0,
+      "containment_threshold": 0.8,
+      "mention_f1": 0.7025089605734767,
+      "document_f1": 0.7556874381800198
+    },
+    {
+      "ner_threshold": 0.65,
+      "replace_threshold": 1.0,
+      "dense_threshold": 0.9,
+      "agreement_threshold": 1.0,
+      "containment_threshold": 0.85,
+      "mention_f1": 0.7034050179211468,
+      "document_f1": 0.7556874381800198
+    },
+    {
+      "ner_threshold": 0.65,
+      "replace_threshold": 1.0,
+      "dense_threshold": 0.9,
+      "agreement_threshold": 1.0,
+      "containment_threshold": 0.9,
+      "mention_f1": 0.7069892473118279,
+      "document_f1": 0.7564356435643563
+    },
+    {
+      "ner_threshold": 0.65,
+      "replace_threshold": 1.0,
+      "dense_threshold": 0.9,
+      "agreement_threshold": 1.0,
+      "containment_threshold": 0.95,
+      "mention_f1": 0.7096774193548387,
+      "document_f1": 0.7608695652173914
+    },
+    {
+      "ner_threshold": 0.65,
+      "replace_threshold": 1.0,
+      "dense_threshold": 0.9,
+      "agreement_threshold": 1.0,
+      "containment_threshold": 1.0,
+      "mention_f1": 0.6989247311827957,
+      "document_f1": 0.747011952191235
+    },
+    {
+      "ner_threshold": 0.65,
+      "replace_threshold": 1.0,
+      "dense_threshold": 0.95,
+      "agreement_threshold": 0.9,
+      "containment_threshold": 0.8,
+      "mention_f1": 0.7012391005048187,
+      "document_f1": 0.7464503042596349
+    },
+    {
+      "ner_threshold": 0.65,
+      "replace_threshold": 1.0,
+      "dense_threshold": 0.95,
+      "agreement_threshold": 0.9,
+      "containment_threshold": 0.85,
+      "mention_f1": 0.7012391005048187,
+      "document_f1": 0.7464503042596349
+    },
+    {
+      "ner_threshold": 0.65,
+      "replace_threshold": 1.0,
+      "dense_threshold": 0.95,
+      "agreement_threshold": 0.9,
+      "containment_threshold": 0.9,
+      "mention_f1": 0.7021569527306103,
+      "document_f1": 0.7472081218274111
+    },
+    {
+      "ner_threshold": 0.65,
+      "replace_threshold": 1.0,
+      "dense_threshold": 0.95,
+      "agreement_threshold": 0.9,
+      "containment_threshold": 0.95,
+      "mention_f1": 0.7030748049564021,
+      "document_f1": 0.7484787018255578
+    },
+    {
+      "ner_threshold": 0.65,
+      "replace_threshold": 1.0,
+      "dense_threshold": 0.95,
+      "agreement_threshold": 0.9,
+      "containment_threshold": 1.0,
+      "mention_f1": 0.6975676916016522,
+      "document_f1": 0.7393075356415478
+    },
+    {
+      "ner_threshold": 0.65,
+      "replace_threshold": 1.0,
+      "dense_threshold": 0.95,
+      "agreement_threshold": 0.95,
+      "containment_threshold": 0.8,
+      "mention_f1": 0.7012391005048187,
+      "document_f1": 0.7464503042596349
+    },
+    {
+      "ner_threshold": 0.65,
+      "replace_threshold": 1.0,
+      "dense_threshold": 0.95,
+      "agreement_threshold": 0.95,
+      "containment_threshold": 0.85,
+      "mention_f1": 0.7012391005048187,
+      "document_f1": 0.7464503042596349
+    },
+    {
+      "ner_threshold": 0.65,
+      "replace_threshold": 1.0,
+      "dense_threshold": 0.95,
+      "agreement_threshold": 0.95,
+      "containment_threshold": 0.9,
+      "mention_f1": 0.7021569527306103,
+      "document_f1": 0.7472081218274111
+    },
+    {
+      "ner_threshold": 0.65,
+      "replace_threshold": 1.0,
+      "dense_threshold": 0.95,
+      "agreement_threshold": 0.95,
+      "containment_threshold": 0.95,
+      "mention_f1": 0.7030748049564021,
+      "document_f1": 0.7484787018255578
+    },
+    {
+      "ner_threshold": 0.65,
+      "replace_threshold": 1.0,
+      "dense_threshold": 0.95,
+      "agreement_threshold": 0.95,
+      "containment_threshold": 1.0,
+      "mention_f1": 0.6975676916016522,
+      "document_f1": 0.7393075356415478
+    },
+    {
+      "ner_threshold": 0.65,
+      "replace_threshold": 1.0,
+      "dense_threshold": 0.95,
+      "agreement_threshold": 1.0,
+      "containment_threshold": 0.8,
+      "mention_f1": 0.7012391005048187,
+      "document_f1": 0.7464503042596349
+    },
+    {
+      "ner_threshold": 0.65,
+      "replace_threshold": 1.0,
+      "dense_threshold": 0.95,
+      "agreement_threshold": 1.0,
+      "containment_threshold": 0.85,
+      "mention_f1": 0.7012391005048187,
+      "document_f1": 0.7464503042596349
+    },
+    {
+      "ner_threshold": 0.65,
+      "replace_threshold": 1.0,
+      "dense_threshold": 0.95,
+      "agreement_threshold": 1.0,
+      "containment_threshold": 0.9,
+      "mention_f1": 0.7021569527306103,
+      "document_f1": 0.7472081218274111
+    },
+    {
+      "ner_threshold": 0.65,
+      "replace_threshold": 1.0,
+      "dense_threshold": 0.95,
+      "agreement_threshold": 1.0,
+      "containment_threshold": 0.95,
+      "mention_f1": 0.7030748049564021,
+      "document_f1": 0.7484787018255578
+    },
+    {
+      "ner_threshold": 0.65,
+      "replace_threshold": 1.0,
+      "dense_threshold": 0.95,
+      "agreement_threshold": 1.0,
+      "containment_threshold": 1.0,
+      "mention_f1": 0.6975676916016522,
+      "document_f1": 0.7393075356415478
+    },
+    {
+      "ner_threshold": 0.7,
+      "replace_threshold": 1.0,
+      "dense_threshold": 0.85,
+      "agreement_threshold": 0.9,
+      "containment_threshold": 0.8,
+      "mention_f1": 0.6973113616652212,
+      "document_f1": 0.7578347578347578
+    },
+    {
+      "ner_threshold": 0.7,
+      "replace_threshold": 1.0,
+      "dense_threshold": 0.85,
+      "agreement_threshold": 0.9,
+      "containment_threshold": 0.85,
+      "mention_f1": 0.6990459670424979,
+      "document_f1": 0.7578347578347578
+    },
+    {
+      "ner_threshold": 0.7,
+      "replace_threshold": 1.0,
+      "dense_threshold": 0.85,
+      "agreement_threshold": 0.9,
+      "containment_threshold": 0.9,
+      "mention_f1": 0.7025151777970512,
+      "document_f1": 0.7585551330798479
+    },
+    {
+      "ner_threshold": 0.7,
+      "replace_threshold": 1.0,
+      "dense_threshold": 0.85,
+      "agreement_threshold": 0.9,
+      "containment_threshold": 0.95,
+      "mention_f1": 0.7016478751084129,
+      "document_f1": 0.7647058823529412
+    },
+    {
+      "ner_threshold": 0.7,
+      "replace_threshold": 1.0,
+      "dense_threshold": 0.85,
+      "agreement_threshold": 0.9,
+      "containment_threshold": 1.0,
+      "mention_f1": 0.692107545533391,
+      "document_f1": 0.7485604606525913
+    },
+    {
+      "ner_threshold": 0.7,
+      "replace_threshold": 1.0,
+      "dense_threshold": 0.85,
+      "agreement_threshold": 0.95,
+      "containment_threshold": 0.8,
+      "mention_f1": 0.6973113616652212,
+      "document_f1": 0.7578347578347578
+    },
+    {
+      "ner_threshold": 0.7,
+      "replace_threshold": 1.0,
+      "dense_threshold": 0.85,
+      "agreement_threshold": 0.95,
+      "containment_threshold": 0.85,
+      "mention_f1": 0.6990459670424979,
+      "document_f1": 0.7578347578347578
+    },
+    {
+      "ner_threshold": 0.7,
+      "replace_threshold": 1.0,
+      "dense_threshold": 0.85,
+      "agreement_threshold": 0.95,
+      "containment_threshold": 0.9,
+      "mention_f1": 0.7025151777970512,
+      "document_f1": 0.7585551330798479
+    },
+    {
+      "ner_threshold": 0.7,
+      "replace_threshold": 1.0,
+      "dense_threshold": 0.85,
+      "agreement_threshold": 0.95,
+      "containment_threshold": 0.95,
+      "mention_f1": 0.7033824804856895,
+      "document_f1": 0.7647058823529412
+    },
+    {
+      "ner_threshold": 0.7,
+      "replace_threshold": 1.0,
+      "dense_threshold": 0.85,
+      "agreement_threshold": 0.95,
+      "containment_threshold": 1.0,
+      "mention_f1": 0.6938421509106678,
+      "document_f1": 0.7485604606525913
+    },
+    {
+      "ner_threshold": 0.7,
+      "replace_threshold": 1.0,
+      "dense_threshold": 0.85,
+      "agreement_threshold": 1.0,
+      "containment_threshold": 0.8,
+      "mention_f1": 0.6973113616652212,
+      "document_f1": 0.7578347578347578
+    },
+    {
+      "ner_threshold": 0.7,
+      "replace_threshold": 1.0,
+      "dense_threshold": 0.85,
+      "agreement_threshold": 1.0,
+      "containment_threshold": 0.85,
+      "mention_f1": 0.6990459670424979,
+      "document_f1": 0.7578347578347578
+    },
+    {
+      "ner_threshold": 0.7,
+      "replace_threshold": 1.0,
+      "dense_threshold": 0.85,
+      "agreement_threshold": 1.0,
+      "containment_threshold": 0.9,
+      "mention_f1": 0.7025151777970512,
+      "document_f1": 0.7585551330798479
+    },
+    {
+      "ner_threshold": 0.7,
+      "replace_threshold": 1.0,
+      "dense_threshold": 0.85,
+      "agreement_threshold": 1.0,
+      "containment_threshold": 0.95,
+      "mention_f1": 0.7033824804856895,
+      "document_f1": 0.7647058823529412
+    },
+    {
+      "ner_threshold": 0.7,
+      "replace_threshold": 1.0,
+      "dense_threshold": 0.85,
+      "agreement_threshold": 1.0,
+      "containment_threshold": 1.0,
+      "mention_f1": 0.692107545533391,
+      "document_f1": 0.7485604606525913
+    },
+    {
+      "ner_threshold": 0.7,
+      "replace_threshold": 1.0,
+      "dense_threshold": 0.9,
+      "agreement_threshold": 0.9,
+      "containment_threshold": 0.8,
+      "mention_f1": 0.7040862146385272,
+      "document_f1": 0.7564356435643563
+    },
+    {
+      "ner_threshold": 0.7,
+      "replace_threshold": 1.0,
+      "dense_threshold": 0.9,
+      "agreement_threshold": 0.9,
+      "containment_threshold": 0.85,
+      "mention_f1": 0.7049842837898518,
+      "document_f1": 0.7564356435643563
+    },
+    {
+      "ner_threshold": 0.7,
+      "replace_threshold": 1.0,
+      "dense_threshold": 0.9,
+      "agreement_threshold": 0.9,
+      "containment_threshold": 0.9,
+      "mention_f1": 0.7085765603951505,
+      "document_f1": 0.757185332011893
+    },
+    {
+      "ner_threshold": 0.7,
+      "replace_threshold": 1.0,
+      "dense_threshold": 0.9,
+      "agreement_threshold": 0.9,
+      "containment_threshold": 0.95,
+      "mention_f1": 0.7085765603951505,
+      "document_f1": 0.76162215628091
+    },
+    {
+      "ner_threshold": 0.7,
+      "replace_threshold": 1.0,
+      "dense_threshold": 0.9,
+      "agreement_threshold": 0.9,
+      "containment_threshold": 1.0,
+      "mention_f1": 0.6995958688819038,
+      "document_f1": 0.7477567298105683
+    },
+    {
+      "ner_threshold": 0.7,
+      "replace_threshold": 1.0,
+      "dense_threshold": 0.9,
+      "agreement_threshold": 0.95,
+      "containment_threshold": 0.8,
+      "mention_f1": 0.7040862146385272,
+      "document_f1": 0.7564356435643563
+    },
+    {
+      "ner_threshold": 0.7,
+      "replace_threshold": 1.0,
+      "dense_threshold": 0.9,
+      "agreement_threshold": 0.95,
+      "containment_threshold": 0.85,
+      "mention_f1": 0.7049842837898518,
+      "document_f1": 0.7564356435643563
+    },
+    {
+      "ner_threshold": 0.7,
+      "replace_threshold": 1.0,
+      "dense_threshold": 0.9,
+      "agreement_threshold": 0.95,
+      "containment_threshold": 0.9,
+      "mention_f1": 0.7085765603951505,
+      "document_f1": 0.757185332011893
+    },
+    {
+      "ner_threshold": 0.7,
+      "replace_threshold": 1.0,
+      "dense_threshold": 0.9,
+      "agreement_threshold": 0.95,
+      "containment_threshold": 0.95,
+      "mention_f1": 0.7112707678491246,
+      "document_f1": 0.76162215628091
+    },
+    {
+      "ner_threshold": 0.7,
+      "replace_threshold": 1.0,
+      "dense_threshold": 0.9,
+      "agreement_threshold": 0.95,
+      "containment_threshold": 1.0,
+      "mention_f1": 0.7022900763358778,
+      "document_f1": 0.7477567298105683
+    },
+    {
+      "ner_threshold": 0.7,
+      "replace_threshold": 1.0,
+      "dense_threshold": 0.9,
+      "agreement_threshold": 1.0,
+      "containment_threshold": 0.8,
+      "mention_f1": 0.7040862146385272,
+      "document_f1": 0.7564356435643563
+    },
+    {
+      "ner_threshold": 0.7,
+      "replace_threshold": 1.0,
+      "dense_threshold": 0.9,
+      "agreement_threshold": 1.0,
+      "containment_threshold": 0.85,
+      "mention_f1": 0.7049842837898518,
+      "document_f1": 0.7564356435643563
+    },
+    {
+      "ner_threshold": 0.7,
+      "replace_threshold": 1.0,
+      "dense_threshold": 0.9,
+      "agreement_threshold": 1.0,
+      "containment_threshold": 0.9,
+      "mention_f1": 0.7085765603951505,
+      "document_f1": 0.757185332011893
+    },
+    {
+      "ner_threshold": 0.7,
+      "replace_threshold": 1.0,
+      "dense_threshold": 0.9,
+      "agreement_threshold": 1.0,
+      "containment_threshold": 0.95,
+      "mention_f1": 0.7112707678491246,
+      "document_f1": 0.76162215628091
+    },
+    {
+      "ner_threshold": 0.7,
+      "replace_threshold": 1.0,
+      "dense_threshold": 0.9,
+      "agreement_threshold": 1.0,
+      "containment_threshold": 1.0,
+      "mention_f1": 0.7004939380332286,
+      "document_f1": 0.7477567298105683
+    },
+    {
+      "ner_threshold": 0.7,
+      "replace_threshold": 1.0,
+      "dense_threshold": 0.95,
+      "agreement_threshold": 0.9,
+      "containment_threshold": 0.8,
+      "mention_f1": 0.7022058823529411,
+      "document_f1": 0.7472081218274111
+    },
+    {
+      "ner_threshold": 0.7,
+      "replace_threshold": 1.0,
+      "dense_threshold": 0.95,
+      "agreement_threshold": 0.9,
+      "containment_threshold": 0.85,
+      "mention_f1": 0.7022058823529411,
+      "document_f1": 0.7472081218274111
+    },
+    {
+      "ner_threshold": 0.7,
+      "replace_threshold": 1.0,
+      "dense_threshold": 0.95,
+      "agreement_threshold": 0.9,
+      "containment_threshold": 0.9,
+      "mention_f1": 0.703125,
+      "document_f1": 0.7479674796747966
+    },
+    {
+      "ner_threshold": 0.7,
+      "replace_threshold": 1.0,
+      "dense_threshold": 0.95,
+      "agreement_threshold": 0.9,
+      "containment_threshold": 0.95,
+      "mention_f1": 0.7040441176470588,
+      "document_f1": 0.749238578680203
+    },
+    {
+      "ner_threshold": 0.7,
+      "replace_threshold": 1.0,
+      "dense_threshold": 0.95,
+      "agreement_threshold": 0.9,
+      "containment_threshold": 1.0,
+      "mention_f1": 0.6985294117647058,
+      "document_f1": 0.7400611620795107
+    },
+    {
+      "ner_threshold": 0.7,
+      "replace_threshold": 1.0,
+      "dense_threshold": 0.95,
+      "agreement_threshold": 0.95,
+      "containment_threshold": 0.8,
+      "mention_f1": 0.7022058823529411,
+      "document_f1": 0.7472081218274111
+    },
+    {
+      "ner_threshold": 0.7,
+      "replace_threshold": 1.0,
+      "dense_threshold": 0.95,
+      "agreement_threshold": 0.95,
+      "containment_threshold": 0.85,
+      "mention_f1": 0.7022058823529411,
+      "document_f1": 0.7472081218274111
+    },
+    {
+      "ner_threshold": 0.7,
+      "replace_threshold": 1.0,
+      "dense_threshold": 0.95,
+      "agreement_threshold": 0.95,
+      "containment_threshold": 0.9,
+      "mention_f1": 0.703125,
+      "document_f1": 0.7479674796747966
+    },
+    {
+      "ner_threshold": 0.7,
+      "replace_threshold": 1.0,
+      "dense_threshold": 0.95,
+      "agreement_threshold": 0.95,
+      "containment_threshold": 0.95,
+      "mention_f1": 0.7040441176470588,
+      "document_f1": 0.749238578680203
+    },
+    {
+      "ner_threshold": 0.7,
+      "replace_threshold": 1.0,
+      "dense_threshold": 0.95,
+      "agreement_threshold": 0.95,
+      "containment_threshold": 1.0,
+      "mention_f1": 0.6985294117647058,
+      "document_f1": 0.7400611620795107
+    },
+    {
+      "ner_threshold": 0.7,
+      "replace_threshold": 1.0,
+      "dense_threshold": 0.95,
+      "agreement_threshold": 1.0,
+      "containment_threshold": 0.8,
+      "mention_f1": 0.7022058823529411,
+      "document_f1": 0.7472081218274111
+    },
+    {
+      "ner_threshold": 0.7,
+      "replace_threshold": 1.0,
+      "dense_threshold": 0.95,
+      "agreement_threshold": 1.0,
+      "containment_threshold": 0.85,
+      "mention_f1": 0.7022058823529411,
+      "document_f1": 0.7472081218274111
+    },
+    {
+      "ner_threshold": 0.7,
+      "replace_threshold": 1.0,
+      "dense_threshold": 0.95,
+      "agreement_threshold": 1.0,
+      "containment_threshold": 0.9,
+      "mention_f1": 0.703125,
+      "document_f1": 0.7479674796747966
+    },
+    {
+      "ner_threshold": 0.7,
+      "replace_threshold": 1.0,
+      "dense_threshold": 0.95,
+      "agreement_threshold": 1.0,
+      "containment_threshold": 0.95,
+      "mention_f1": 0.7040441176470588,
+      "document_f1": 0.749238578680203
+    },
+    {
+      "ner_threshold": 0.7,
+      "replace_threshold": 1.0,
+      "dense_threshold": 0.95,
+      "agreement_threshold": 1.0,
+      "containment_threshold": 1.0,
+      "mention_f1": 0.6985294117647058,
+      "document_f1": 0.7400611620795107
+    },
+    {
+      "ner_threshold": 0.75,
+      "replace_threshold": 1.0,
+      "dense_threshold": 0.85,
+      "agreement_threshold": 0.9,
+      "containment_threshold": 0.8,
+      "mention_f1": 0.6979982593559617,
+      "document_f1": 0.7588179218303145
+    },
+    {
+      "ner_threshold": 0.75,
+      "replace_threshold": 1.0,
+      "dense_threshold": 0.85,
+      "agreement_threshold": 0.9,
+      "containment_threshold": 0.85,
+      "mention_f1": 0.6997389033942558,
+      "document_f1": 0.7588179218303145
+    },
+    {
+      "ner_threshold": 0.75,
+      "replace_threshold": 1.0,
+      "dense_threshold": 0.85,
+      "agreement_threshold": 0.9,
+      "containment_threshold": 0.9,
+      "mention_f1": 0.7032201914708442,
+      "document_f1": 0.7595419847328244
+    },
+    {
+      "ner_threshold": 0.75,
+      "replace_threshold": 1.0,
+      "dense_threshold": 0.85,
+      "agreement_threshold": 0.9,
+      "containment_threshold": 0.95,
+      "mention_f1": 0.7023498694516972,
+      "document_f1": 0.7657142857142857
+    },
+    {
+      "ner_threshold": 0.75,
+      "replace_threshold": 1.0,
+      "dense_threshold": 0.85,
+      "agreement_threshold": 0.9,
+      "containment_threshold": 1.0,
+      "mention_f1": 0.6927763272410792,
+      "document_f1": 0.7495183044315993
+    },
+    {
+      "ner_threshold": 0.75,
+      "replace_threshold": 1.0,
+      "dense_threshold": 0.85,
+      "agreement_threshold": 0.95,
+      "containment_threshold": 0.8,
+      "mention_f1": 0.6979982593559617,
+      "document_f1": 0.7588179218303145
+    },
+    {
+      "ner_threshold": 0.75,
+      "replace_threshold": 1.0,
+      "dense_threshold": 0.85,
+      "agreement_threshold": 0.95,
+      "containment_threshold": 0.85,
+      "mention_f1": 0.6997389033942558,
+      "document_f1": 0.7588179218303145
+    },
+    {
+      "ner_threshold": 0.75,
+      "replace_threshold": 1.0,
+      "dense_threshold": 0.85,
+      "agreement_threshold": 0.95,
+      "containment_threshold": 0.9,
+      "mention_f1": 0.7032201914708442,
+      "document_f1": 0.7595419847328244
+    },
+    {
+      "ner_threshold": 0.75,
+      "replace_threshold": 1.0,
+      "dense_threshold": 0.85,
+      "agreement_threshold": 0.95,
+      "containment_threshold": 0.95,
+      "mention_f1": 0.7040905134899913,
+      "document_f1": 0.7657142857142857
+    },
+    {
+      "ner_threshold": 0.75,
+      "replace_threshold": 1.0,
+      "dense_threshold": 0.85,
+      "agreement_threshold": 0.95,
+      "containment_threshold": 1.0,
+      "mention_f1": 0.6945169712793734,
+      "document_f1": 0.7495183044315993
+    },
+    {
+      "ner_threshold": 0.75,
+      "replace_threshold": 1.0,
+      "dense_threshold": 0.85,
+      "agreement_threshold": 1.0,
+      "containment_threshold": 0.8,
+      "mention_f1": 0.6979982593559617,
+      "document_f1": 0.7588179218303145
+    },
+    {
+      "ner_threshold": 0.75,
+      "replace_threshold": 1.0,
+      "dense_threshold": 0.85,
+      "agreement_threshold": 1.0,
+      "containment_threshold": 0.85,
+      "mention_f1": 0.6997389033942558,
+      "document_f1": 0.7588179218303145
+    },
+    {
+      "ner_threshold": 0.75,
+      "replace_threshold": 1.0,
+      "dense_threshold": 0.85,
+      "agreement_threshold": 1.0,
+      "containment_threshold": 0.9,
+      "mention_f1": 0.7032201914708442,
+      "document_f1": 0.7595419847328244
+    },
+    {
+      "ner_threshold": 0.75,
+      "replace_threshold": 1.0,
+      "dense_threshold": 0.85,
+      "agreement_threshold": 1.0,
+      "containment_threshold": 0.95,
+      "mention_f1": 0.7040905134899913,
+      "document_f1": 0.7657142857142857
+    },
+    {
+      "ner_threshold": 0.75,
+      "replace_threshold": 1.0,
+      "dense_threshold": 0.85,
+      "agreement_threshold": 1.0,
+      "containment_threshold": 1.0,
+      "mention_f1": 0.6927763272410792,
+      "document_f1": 0.7495183044315993
+    },
+    {
+      "ner_threshold": 0.75,
+      "replace_threshold": 1.0,
+      "dense_threshold": 0.9,
+      "agreement_threshold": 0.9,
+      "containment_threshold": 0.8,
+      "mention_f1": 0.7041873030166591,
+      "document_f1": 0.757455268389662
+    },
+    {
+      "ner_threshold": 0.75,
+      "replace_threshold": 1.0,
+      "dense_threshold": 0.9,
+      "agreement_threshold": 0.9,
+      "containment_threshold": 0.85,
+      "mention_f1": 0.705087798289059,
+      "document_f1": 0.757455268389662
+    },
+    {
+      "ner_threshold": 0.75,
+      "replace_threshold": 1.0,
+      "dense_threshold": 0.9,
+      "agreement_threshold": 0.9,
+      "containment_threshold": 0.9,
+      "mention_f1": 0.7086897793786582,
+      "document_f1": 0.7582089552238805
+    },
+    {
+      "ner_threshold": 0.75,
+      "replace_threshold": 1.0,
+      "dense_threshold": 0.9,
+      "agreement_threshold": 0.9,
+      "containment_threshold": 0.95,
+      "mention_f1": 0.7086897793786582,
+      "document_f1": 0.76266137040715
+    },
+    {
+      "ner_threshold": 0.75,
+      "replace_threshold": 1.0,
+      "dense_threshold": 0.9,
+      "agreement_threshold": 0.9,
+      "containment_threshold": 1.0,
+      "mention_f1": 0.6996848266546601,
+      "document_f1": 0.7487487487487489
+    },
+    {
+      "ner_threshold": 0.75,
+      "replace_threshold": 1.0,
+      "dense_threshold": 0.9,
+      "agreement_threshold": 0.95,
+      "containment_threshold": 0.8,
+      "mention_f1": 0.7041873030166591,
+      "document_f1": 0.757455268389662
+    },
+    {
+      "ner_threshold": 0.75,
+      "replace_threshold": 1.0,
+      "dense_threshold": 0.9,
+      "agreement_threshold": 0.95,
+      "containment_threshold": 0.85,
+      "mention_f1": 0.705087798289059,
+      "document_f1": 0.757455268389662
+    },
+    {
+      "ner_threshold": 0.75,
+      "replace_threshold": 1.0,
+      "dense_threshold": 0.9,
+      "agreement_threshold": 0.95,
+      "containment_threshold": 0.9,
+      "mention_f1": 0.7086897793786582,
+      "document_f1": 0.7582089552238805
+    },
+    {
+      "ner_threshold": 0.75,
+      "replace_threshold": 1.0,
+      "dense_threshold": 0.9,
+      "agreement_threshold": 0.95,
+      "containment_threshold": 0.95,
+      "mention_f1": 0.7113912651958576,
+      "document_f1": 0.76266137040715
+    },
+    {
+      "ner_threshold": 0.75,
+      "replace_threshold": 1.0,
+      "dense_threshold": 0.9,
+      "agreement_threshold": 0.95,
+      "containment_threshold": 1.0,
+      "mention_f1": 0.7023863124718596,
+      "document_f1": 0.7487487487487489
+    },
+    {
+      "ner_threshold": 0.75,
+      "replace_threshold": 1.0,
+      "dense_threshold": 0.9,
+      "agreement_threshold": 1.0,
+      "containment_threshold": 0.8,
+      "mention_f1": 0.7041873030166591,
+      "document_f1": 0.757455268389662
+    },
+    {
+      "ner_threshold": 0.75,
+      "replace_threshold": 1.0,
+      "dense_threshold": 0.9,
+      "agreement_threshold": 1.0,
+      "containment_threshold": 0.85,
+      "mention_f1": 0.705087798289059,
+      "document_f1": 0.757455268389662
+    },
+    {
+      "ner_threshold": 0.75,
+      "replace_threshold": 1.0,
+      "dense_threshold": 0.9,
+      "agreement_threshold": 1.0,
+      "containment_threshold": 0.9,
+      "mention_f1": 0.7086897793786582,
+      "document_f1": 0.7582089552238805
+    },
+    {
+      "ner_threshold": 0.75,
+      "replace_threshold": 1.0,
+      "dense_threshold": 0.9,
+      "agreement_threshold": 1.0,
+      "containment_threshold": 0.95,
+      "mention_f1": 0.7113912651958576,
+      "document_f1": 0.76266137040715
+    },
+    {
+      "ner_threshold": 0.75,
+      "replace_threshold": 1.0,
+      "dense_threshold": 0.9,
+      "agreement_threshold": 1.0,
+      "containment_threshold": 1.0,
+      "mention_f1": 0.70058532192706,
+      "document_f1": 0.7487487487487489
+    },
+    {
+      "ner_threshold": 0.75,
+      "replace_threshold": 1.0,
+      "dense_threshold": 0.95,
+      "agreement_threshold": 0.9,
+      "containment_threshold": 0.8,
+      "mention_f1": 0.7016574585635359,
+      "document_f1": 0.7474541751527495
+    },
+    {
+      "ner_threshold": 0.75,
+      "replace_threshold": 1.0,
+      "dense_threshold": 0.95,
+      "agreement_threshold": 0.9,
+      "containment_threshold": 0.85,
+      "mention_f1": 0.7016574585635359,
+      "document_f1": 0.7474541751527495
+    },
+    {
+      "ner_threshold": 0.75,
+      "replace_threshold": 1.0,
+      "dense_threshold": 0.95,
+      "agreement_threshold": 0.9,
+      "containment_threshold": 0.9,
+      "mention_f1": 0.7025782688766115,
+      "document_f1": 0.7482161060142712
+    },
+    {
+      "ner_threshold": 0.75,
+      "replace_threshold": 1.0,
+      "dense_threshold": 0.95,
+      "agreement_threshold": 0.9,
+      "containment_threshold": 0.95,
+      "mention_f1": 0.703499079189687,
+      "document_f1": 0.7494908350305499
+    },
+    {
+      "ner_threshold": 0.75,
+      "replace_threshold": 1.0,
+      "dense_threshold": 0.95,
+      "agreement_threshold": 0.9,
+      "containment_threshold": 1.0,
+      "mention_f1": 0.6979742173112339,
+      "document_f1": 0.7402862985685071
+    },
+    {
+      "ner_threshold": 0.75,
+      "replace_threshold": 1.0,
+      "dense_threshold": 0.95,
+      "agreement_threshold": 0.95,
+      "containment_threshold": 0.8,
+      "mention_f1": 0.7016574585635359,
+      "document_f1": 0.7474541751527495
+    },
+    {
+      "ner_threshold": 0.75,
+      "replace_threshold": 1.0,
+      "dense_threshold": 0.95,
+      "agreement_threshold": 0.95,
+      "containment_threshold": 0.85,
+      "mention_f1": 0.7016574585635359,
+      "document_f1": 0.7474541751527495
+    },
+    {
+      "ner_threshold": 0.75,
+      "replace_threshold": 1.0,
+      "dense_threshold": 0.95,
+      "agreement_threshold": 0.95,
+      "containment_threshold": 0.9,
+      "mention_f1": 0.7025782688766115,
+      "document_f1": 0.7482161060142712
+    },
+    {
+      "ner_threshold": 0.75,
+      "replace_threshold": 1.0,
+      "dense_threshold": 0.95,
+      "agreement_threshold": 0.95,
+      "containment_threshold": 0.95,
+      "mention_f1": 0.703499079189687,
+      "document_f1": 0.7494908350305499
+    },
+    {
+      "ner_threshold": 0.75,
+      "replace_threshold": 1.0,
+      "dense_threshold": 0.95,
+      "agreement_threshold": 0.95,
+      "containment_threshold": 1.0,
+      "mention_f1": 0.6979742173112339,
+      "document_f1": 0.7402862985685071
+    },
+    {
+      "ner_threshold": 0.75,
+      "replace_threshold": 1.0,
+      "dense_threshold": 0.95,
+      "agreement_threshold": 1.0,
+      "containment_threshold": 0.8,
+      "mention_f1": 0.7016574585635359,
+      "document_f1": 0.7474541751527495
+    },
+    {
+      "ner_threshold": 0.75,
+      "replace_threshold": 1.0,
+      "dense_threshold": 0.95,
+      "agreement_threshold": 1.0,
+      "containment_threshold": 0.85,
+      "mention_f1": 0.7016574585635359,
+      "document_f1": 0.7474541751527495
+    },
+    {
+      "ner_threshold": 0.75,
+      "replace_threshold": 1.0,
+      "dense_threshold": 0.95,
+      "agreement_threshold": 1.0,
+      "containment_threshold": 0.9,
+      "mention_f1": 0.7025782688766115,
+      "document_f1": 0.7482161060142712
+    },
+    {
+      "ner_threshold": 0.75,
+      "replace_threshold": 1.0,
+      "dense_threshold": 0.95,
+      "agreement_threshold": 1.0,
+      "containment_threshold": 0.95,
+      "mention_f1": 0.703499079189687,
+      "document_f1": 0.7494908350305499
+    },
+    {
+      "ner_threshold": 0.75,
+      "replace_threshold": 1.0,
+      "dense_threshold": 0.95,
+      "agreement_threshold": 1.0,
+      "containment_threshold": 1.0,
+      "mention_f1": 0.6979742173112339,
+      "document_f1": 0.7402862985685071
+    },
+    {
+      "ner_threshold": 0.8,
+      "replace_threshold": 1.0,
+      "dense_threshold": 0.85,
+      "agreement_threshold": 0.9,
+      "containment_threshold": 0.8,
+      "mention_f1": 0.6970227670753064,
+      "document_f1": 0.7562380038387716
+    },
+    {
+      "ner_threshold": 0.8,
+      "replace_threshold": 1.0,
+      "dense_threshold": 0.85,
+      "agreement_threshold": 0.9,
+      "containment_threshold": 0.85,
+      "mention_f1": 0.6987740805604203,
+      "document_f1": 0.7562380038387716
+    },
+    {
+      "ner_threshold": 0.8,
+      "replace_threshold": 1.0,
+      "dense_threshold": 0.85,
+      "agreement_threshold": 0.9,
+      "containment_threshold": 0.9,
+      "mention_f1": 0.702276707530648,
+      "document_f1": 0.7569644572526416
+    },
+    {
+      "ner_threshold": 0.8,
+      "replace_threshold": 1.0,
+      "dense_threshold": 0.85,
+      "agreement_threshold": 0.9,
+      "containment_threshold": 0.95,
+      "mention_f1": 0.701401050788091,
+      "document_f1": 0.7631831255992331
+    },
+    {
+      "ner_threshold": 0.8,
+      "replace_threshold": 1.0,
+      "dense_threshold": 0.85,
+      "agreement_threshold": 0.9,
+      "containment_threshold": 1.0,
+      "mention_f1": 0.6917688266199651,
+      "document_f1": 0.7468477206595538
+    },
+    {
+      "ner_threshold": 0.8,
+      "replace_threshold": 1.0,
+      "dense_threshold": 0.85,
+      "agreement_threshold": 0.95,
+      "containment_threshold": 0.8,
+      "mention_f1": 0.6970227670753064,
+      "document_f1": 0.7562380038387716
+    },
+    {
+      "ner_threshold": 0.8,
+      "replace_threshold": 1.0,
+      "dense_threshold": 0.85,
+      "agreement_threshold": 0.95,
+      "containment_threshold": 0.85,
+      "mention_f1": 0.6987740805604203,
+      "document_f1": 0.7562380038387716
+    },
+    {
+      "ner_threshold": 0.8,
+      "replace_threshold": 1.0,
+      "dense_threshold": 0.85,
+      "agreement_threshold": 0.95,
+      "containment_threshold": 0.9,
+      "mention_f1": 0.702276707530648,
+      "document_f1": 0.7569644572526416
+    },
+    {
+      "ner_threshold": 0.8,
+      "replace_threshold": 1.0,
+      "dense_threshold": 0.85,
+      "agreement_threshold": 0.95,
+      "containment_threshold": 0.95,
+      "mention_f1": 0.703152364273205,
+      "document_f1": 0.7631831255992331
+    },
+    {
+      "ner_threshold": 0.8,
+      "replace_threshold": 1.0,
+      "dense_threshold": 0.85,
+      "agreement_threshold": 0.95,
+      "containment_threshold": 1.0,
+      "mention_f1": 0.6935201401050788,
+      "document_f1": 0.7468477206595538
+    },
+    {
+      "ner_threshold": 0.8,
+      "replace_threshold": 1.0,
+      "dense_threshold": 0.85,
+      "agreement_threshold": 1.0,
+      "containment_threshold": 0.8,
+      "mention_f1": 0.6970227670753064,
+      "document_f1": 0.7562380038387716
+    },
+    {
+      "ner_threshold": 0.8,
+      "replace_threshold": 1.0,
+      "dense_threshold": 0.85,
+      "agreement_threshold": 1.0,
+      "containment_threshold": 0.85,
+      "mention_f1": 0.6987740805604203,
+      "document_f1": 0.7562380038387716
+    },
+    {
+      "ner_threshold": 0.8,
+      "replace_threshold": 1.0,
+      "dense_threshold": 0.85,
+      "agreement_threshold": 1.0,
+      "containment_threshold": 0.9,
+      "mention_f1": 0.702276707530648,
+      "document_f1": 0.7569644572526416
+    },
+    {
+      "ner_threshold": 0.8,
+      "replace_threshold": 1.0,
+      "dense_threshold": 0.85,
+      "agreement_threshold": 1.0,
+      "containment_threshold": 0.95,
+      "mention_f1": 0.703152364273205,
+      "document_f1": 0.7631831255992331
+    },
+    {
+      "ner_threshold": 0.8,
+      "replace_threshold": 1.0,
+      "dense_threshold": 0.85,
+      "agreement_threshold": 1.0,
+      "containment_threshold": 1.0,
+      "mention_f1": 0.6917688266199651,
+      "document_f1": 0.7468477206595538
+    },
+    {
+      "ner_threshold": 0.8,
+      "replace_threshold": 1.0,
+      "dense_threshold": 0.9,
+      "agreement_threshold": 0.9,
+      "containment_threshold": 0.8,
+      "mention_f1": 0.7033860045146726,
+      "document_f1": 0.7549800796812749
+    },
+    {
+      "ner_threshold": 0.8,
+      "replace_threshold": 1.0,
+      "dense_threshold": 0.9,
+      "agreement_threshold": 0.9,
+      "containment_threshold": 0.85,
+      "mention_f1": 0.7042889390519188,
+      "document_f1": 0.7549800796812749
+    },
+    {
+      "ner_threshold": 0.8,
+      "replace_threshold": 1.0,
+      "dense_threshold": 0.9,
+      "agreement_threshold": 0.9,
+      "containment_threshold": 0.9,
+      "mention_f1": 0.7079006772009029,
+      "document_f1": 0.7557328015952145
+    },
+    {
+      "ner_threshold": 0.8,
+      "replace_threshold": 1.0,
+      "dense_threshold": 0.9,
+      "agreement_threshold": 0.9,
+      "containment_threshold": 0.95,
+      "mention_f1": 0.7079006772009029,
+      "document_f1": 0.7601990049751243
+    },
+    {
+      "ner_threshold": 0.8,
+      "replace_threshold": 1.0,
+      "dense_threshold": 0.9,
+      "agreement_threshold": 0.9,
+      "containment_threshold": 1.0,
+      "mention_f1": 0.6988713318284424,
+      "document_f1": 0.7462387161484454
+    },
+    {
+      "ner_threshold": 0.8,
+      "replace_threshold": 1.0,
+      "dense_threshold": 0.9,
+      "agreement_threshold": 0.95,
+      "containment_threshold": 0.8,
+      "mention_f1": 0.7033860045146726,
+      "document_f1": 0.7549800796812749
+    },
+    {
+      "ner_threshold": 0.8,
+      "replace_threshold": 1.0,
+      "dense_threshold": 0.9,
+      "agreement_threshold": 0.95,
+      "containment_threshold": 0.85,
+      "mention_f1": 0.7042889390519188,
+      "document_f1": 0.7549800796812749
+    },
+    {
+      "ner_threshold": 0.8,
+      "replace_threshold": 1.0,
+      "dense_threshold": 0.9,
+      "agreement_threshold": 0.95,
+      "containment_threshold": 0.9,
+      "mention_f1": 0.7079006772009029,
+      "document_f1": 0.7557328015952145
+    },
+    {
+      "ner_threshold": 0.8,
+      "replace_threshold": 1.0,
+      "dense_threshold": 0.9,
+      "agreement_threshold": 0.95,
+      "containment_threshold": 0.95,
+      "mention_f1": 0.7106094808126411,
+      "document_f1": 0.7601990049751243
+    },
+    {
+      "ner_threshold": 0.8,
+      "replace_threshold": 1.0,
+      "dense_threshold": 0.9,
+      "agreement_threshold": 0.95,
+      "containment_threshold": 1.0,
+      "mention_f1": 0.7015801354401806,
+      "document_f1": 0.7462387161484454
+    },
+    {
+      "ner_threshold": 0.8,
+      "replace_threshold": 1.0,
+      "dense_threshold": 0.9,
+      "agreement_threshold": 1.0,
+      "containment_threshold": 0.8,
+      "mention_f1": 0.7033860045146726,
+      "document_f1": 0.7549800796812749
+    },
+    {
+      "ner_threshold": 0.8,
+      "replace_threshold": 1.0,
+      "dense_threshold": 0.9,
+      "agreement_threshold": 1.0,
+      "containment_threshold": 0.85,
+      "mention_f1": 0.7042889390519188,
+      "document_f1": 0.7549800796812749
+    },
+    {
+      "ner_threshold": 0.8,
+      "replace_threshold": 1.0,
+      "dense_threshold": 0.9,
+      "agreement_threshold": 1.0,
+      "containment_threshold": 0.9,
+      "mention_f1": 0.7079006772009029,
+      "document_f1": 0.7557328015952145
+    },
+    {
+      "ner_threshold": 0.8,
+      "replace_threshold": 1.0,
+      "dense_threshold": 0.9,
+      "agreement_threshold": 1.0,
+      "containment_threshold": 0.95,
+      "mention_f1": 0.7106094808126411,
+      "document_f1": 0.7601990049751243
+    },
+    {
+      "ner_threshold": 0.8,
+      "replace_threshold": 1.0,
+      "dense_threshold": 0.9,
+      "agreement_threshold": 1.0,
+      "containment_threshold": 1.0,
+      "mention_f1": 0.6997742663656885,
+      "document_f1": 0.7462387161484454
+    },
+    {
+      "ner_threshold": 0.8,
+      "replace_threshold": 1.0,
+      "dense_threshold": 0.95,
+      "agreement_threshold": 0.9,
+      "containment_threshold": 0.8,
+      "mention_f1": 0.7007837713231905,
+      "document_f1": 0.7448979591836735
+    },
+    {
+      "ner_threshold": 0.8,
+      "replace_threshold": 1.0,
+      "dense_threshold": 0.95,
+      "agreement_threshold": 0.9,
+      "containment_threshold": 0.85,
+      "mention_f1": 0.7007837713231905,
+      "document_f1": 0.7448979591836735
+    },
+    {
+      "ner_threshold": 0.8,
+      "replace_threshold": 1.0,
+      "dense_threshold": 0.95,
+      "agreement_threshold": 0.9,
+      "containment_threshold": 0.9,
+      "mention_f1": 0.7017058552328261,
+      "document_f1": 0.745658835546476
+    },
+    {
+      "ner_threshold": 0.8,
+      "replace_threshold": 1.0,
+      "dense_threshold": 0.95,
+      "agreement_threshold": 0.9,
+      "containment_threshold": 0.95,
+      "mention_f1": 0.7026279391424619,
+      "document_f1": 0.7469387755102042
+    },
+    {
+      "ner_threshold": 0.8,
+      "replace_threshold": 1.0,
+      "dense_threshold": 0.95,
+      "agreement_threshold": 0.9,
+      "containment_threshold": 1.0,
+      "mention_f1": 0.6970954356846474,
+      "document_f1": 0.7377049180327869
+    },
+    {
+      "ner_threshold": 0.8,
+      "replace_threshold": 1.0,
+      "dense_threshold": 0.95,
+      "agreement_threshold": 0.95,
+      "containment_threshold": 0.8,
+      "mention_f1": 0.7007837713231905,
+      "document_f1": 0.7448979591836735
+    },
+    {
+      "ner_threshold": 0.8,
+      "replace_threshold": 1.0,
+      "dense_threshold": 0.95,
+      "agreement_threshold": 0.95,
+      "containment_threshold": 0.85,
+      "mention_f1": 0.7007837713231905,
+      "document_f1": 0.7448979591836735
+    },
+    {
+      "ner_threshold": 0.8,
+      "replace_threshold": 1.0,
+      "dense_threshold": 0.95,
+      "agreement_threshold": 0.95,
+      "containment_threshold": 0.9,
+      "mention_f1": 0.7017058552328261,
+      "document_f1": 0.745658835546476
+    },
+    {
+      "ner_threshold": 0.8,
+      "replace_threshold": 1.0,
+      "dense_threshold": 0.95,
+      "agreement_threshold": 0.95,
+      "containment_threshold": 0.95,
+      "mention_f1": 0.7026279391424619,
+      "document_f1": 0.7469387755102042
+    },
+    {
+      "ner_threshold": 0.8,
+      "replace_threshold": 1.0,
+      "dense_threshold": 0.95,
+      "agreement_threshold": 0.95,
+      "containment_threshold": 1.0,
+      "mention_f1": 0.6970954356846474,
+      "document_f1": 0.7377049180327869
+    },
+    {
+      "ner_threshold": 0.8,
+      "replace_threshold": 1.0,
+      "dense_threshold": 0.95,
+      "agreement_threshold": 1.0,
+      "containment_threshold": 0.8,
+      "mention_f1": 0.7007837713231905,
+      "document_f1": 0.7448979591836735
+    },
+    {
+      "ner_threshold": 0.8,
+      "replace_threshold": 1.0,
+      "dense_threshold": 0.95,
+      "agreement_threshold": 1.0,
+      "containment_threshold": 0.85,
+      "mention_f1": 0.7007837713231905,
+      "document_f1": 0.7448979591836735
+    },
+    {
+      "ner_threshold": 0.8,
+      "replace_threshold": 1.0,
+      "dense_threshold": 0.95,
+      "agreement_threshold": 1.0,
+      "containment_threshold": 0.9,
+      "mention_f1": 0.7017058552328261,
+      "document_f1": 0.745658835546476
+    },
+    {
+      "ner_threshold": 0.8,
+      "replace_threshold": 1.0,
+      "dense_threshold": 0.95,
+      "agreement_threshold": 1.0,
+      "containment_threshold": 0.95,
+      "mention_f1": 0.7026279391424619,
+      "document_f1": 0.7469387755102042
+    },
+    {
+      "ner_threshold": 0.8,
+      "replace_threshold": 1.0,
+      "dense_threshold": 0.95,
+      "agreement_threshold": 1.0,
+      "containment_threshold": 1.0,
+      "mention_f1": 0.6970954356846474,
+      "document_f1": 0.7377049180327869
+    },
+    {
+      "ner_threshold": 0.85,
+      "replace_threshold": 1.0,
+      "dense_threshold": 0.85,
+      "agreement_threshold": 0.9,
+      "containment_threshold": 0.8,
+      "mention_f1": 0.6968763748350199,
+      "document_f1": 0.7516908212560386
+    },
+    {
+      "ner_threshold": 0.85,
+      "replace_threshold": 1.0,
+      "dense_threshold": 0.85,
+      "agreement_threshold": 0.9,
+      "containment_threshold": 0.85,
+      "mention_f1": 0.6968763748350199,
+      "document_f1": 0.7516908212560386
+    },
+    {
+      "ner_threshold": 0.85,
+      "replace_threshold": 1.0,
+      "dense_threshold": 0.85,
+      "agreement_threshold": 0.9,
+      "containment_threshold": 0.9,
+      "mention_f1": 0.7003959524857017,
+      "document_f1": 0.7524177949709864
+    },
+    {
+      "ner_threshold": 0.85,
+      "replace_threshold": 1.0,
+      "dense_threshold": 0.85,
+      "agreement_threshold": 0.9,
+      "containment_threshold": 0.95,
+      "mention_f1": 0.6995160580730312,
+      "document_f1": 0.7586872586872587
+    },
+    {
+      "ner_threshold": 0.85,
+      "replace_threshold": 1.0,
+      "dense_threshold": 0.85,
+      "agreement_threshold": 0.9,
+      "containment_threshold": 1.0,
+      "mention_f1": 0.689837219533656,
+      "document_f1": 0.7421874999999999
+    },
+    {
+      "ner_threshold": 0.85,
+      "replace_threshold": 1.0,
+      "dense_threshold": 0.85,
+      "agreement_threshold": 0.95,
+      "containment_threshold": 0.8,
+      "mention_f1": 0.6968763748350199,
+      "document_f1": 0.7516908212560386
+    },
+    {
+      "ner_threshold": 0.85,
+      "replace_threshold": 1.0,
+      "dense_threshold": 0.85,
+      "agreement_threshold": 0.95,
+      "containment_threshold": 0.85,
+      "mention_f1": 0.6968763748350199,
+      "document_f1": 0.7516908212560386
+    },
+    {
+      "ner_threshold": 0.85,
+      "replace_threshold": 1.0,
+      "dense_threshold": 0.85,
+      "agreement_threshold": 0.95,
+      "containment_threshold": 0.9,
+      "mention_f1": 0.7003959524857017,
+      "document_f1": 0.7524177949709864
+    },
+    {
+      "ner_threshold": 0.85,
+      "replace_threshold": 1.0,
+      "dense_threshold": 0.85,
+      "agreement_threshold": 0.95,
+      "containment_threshold": 0.95,
+      "mention_f1": 0.7012758468983722,
+      "document_f1": 0.7586872586872587
+    },
+    {
+      "ner_threshold": 0.85,
+      "replace_threshold": 1.0,
+      "dense_threshold": 0.85,
+      "agreement_threshold": 0.95,
+      "containment_threshold": 1.0,
+      "mention_f1": 0.691597008358997,
+      "document_f1": 0.7421874999999999
+    },
+    {
+      "ner_threshold": 0.85,
+      "replace_threshold": 1.0,
+      "dense_threshold": 0.85,
+      "agreement_threshold": 1.0,
+      "containment_threshold": 0.8,
+      "mention_f1": 0.6968763748350199,
+      "document_f1": 0.7516908212560386
+    },
+    {
+      "ner_threshold": 0.85,
+      "replace_threshold": 1.0,
+      "dense_threshold": 0.85,
+      "agreement_threshold": 1.0,
+      "containment_threshold": 0.85,
+      "mention_f1": 0.6968763748350199,
+      "document_f1": 0.7516908212560386
+    },
+    {
+      "ner_threshold": 0.85,
+      "replace_threshold": 1.0,
+      "dense_threshold": 0.85,
+      "agreement_threshold": 1.0,
+      "containment_threshold": 0.9,
+      "mention_f1": 0.7003959524857017,
+      "document_f1": 0.7524177949709864
+    },
+    {
+      "ner_threshold": 0.85,
+      "replace_threshold": 1.0,
+      "dense_threshold": 0.85,
+      "agreement_threshold": 1.0,
+      "containment_threshold": 0.95,
+      "mention_f1": 0.7012758468983722,
+      "document_f1": 0.7586872586872587
+    },
+    {
+      "ner_threshold": 0.85,
+      "replace_threshold": 1.0,
+      "dense_threshold": 0.85,
+      "agreement_threshold": 1.0,
+      "containment_threshold": 1.0,
+      "mention_f1": 0.689837219533656,
+      "document_f1": 0.7421874999999999
+    },
+    {
+      "ner_threshold": 0.85,
+      "replace_threshold": 1.0,
+      "dense_threshold": 0.9,
+      "agreement_threshold": 0.9,
+      "containment_threshold": 0.8,
+      "mention_f1": 0.7029478458049886,
+      "document_f1": 0.751503006012024
+    },
+    {
+      "ner_threshold": 0.85,
+      "replace_threshold": 1.0,
+      "dense_threshold": 0.9,
+      "agreement_threshold": 0.9,
+      "containment_threshold": 0.85,
+      "mention_f1": 0.7029478458049886,
+      "document_f1": 0.751503006012024
+    },
+    {
+      "ner_threshold": 0.85,
+      "replace_threshold": 1.0,
+      "dense_threshold": 0.9,
+      "agreement_threshold": 0.9,
+      "containment_threshold": 0.9,
+      "mention_f1": 0.7065759637188208,
+      "document_f1": 0.7522567703109329
+    },
+    {
+      "ner_threshold": 0.85,
+      "replace_threshold": 1.0,
+      "dense_threshold": 0.9,
+      "agreement_threshold": 0.9,
+      "containment_threshold": 0.95,
+      "mention_f1": 0.7065759637188208,
+      "document_f1": 0.7567567567567568
+    },
+    {
+      "ner_threshold": 0.85,
+      "replace_threshold": 1.0,
+      "dense_threshold": 0.9,
+      "agreement_threshold": 0.9,
+      "containment_threshold": 1.0,
+      "mention_f1": 0.6975056689342404,
+      "document_f1": 0.7426841574167508
+    },
+    {
+      "ner_threshold": 0.85,
+      "replace_threshold": 1.0,
+      "dense_threshold": 0.9,
+      "agreement_threshold": 0.95,
+      "containment_threshold": 0.8,
+      "mention_f1": 0.7029478458049886,
+      "document_f1": 0.751503006012024
+    },
+    {
+      "ner_threshold": 0.85,
+      "replace_threshold": 1.0,
+      "dense_threshold": 0.9,
+      "agreement_threshold": 0.95,
+      "containment_threshold": 0.85,
+      "mention_f1": 0.7029478458049886,
+      "document_f1": 0.751503006012024
+    },
+    {
+      "ner_threshold": 0.85,
+      "replace_threshold": 1.0,
+      "dense_threshold": 0.9,
+      "agreement_threshold": 0.95,
+      "containment_threshold": 0.9,
+      "mention_f1": 0.7065759637188208,
+      "document_f1": 0.7522567703109329
+    },
+    {
+      "ner_threshold": 0.85,
+      "replace_threshold": 1.0,
+      "dense_threshold": 0.9,
+      "agreement_threshold": 0.95,
+      "containment_threshold": 0.95,
+      "mention_f1": 0.7092970521541951,
+      "document_f1": 0.7567567567567568
+    },
+    {
+      "ner_threshold": 0.85,
+      "replace_threshold": 1.0,
+      "dense_threshold": 0.9,
+      "agreement_threshold": 0.95,
+      "containment_threshold": 1.0,
+      "mention_f1": 0.7002267573696146,
+      "document_f1": 0.7426841574167508
+    },
+    {
+      "ner_threshold": 0.85,
+      "replace_threshold": 1.0,
+      "dense_threshold": 0.9,
+      "agreement_threshold": 1.0,
+      "containment_threshold": 0.8,
+      "mention_f1": 0.7029478458049886,
+      "document_f1": 0.751503006012024
+    },
+    {
+      "ner_threshold": 0.85,
+      "replace_threshold": 1.0,
+      "dense_threshold": 0.9,
+      "agreement_threshold": 1.0,
+      "containment_threshold": 0.85,
+      "mention_f1": 0.7029478458049886,
+      "document_f1": 0.751503006012024
+    },
+    {
+      "ner_threshold": 0.85,
+      "replace_threshold": 1.0,
+      "dense_threshold": 0.9,
+      "agreement_threshold": 1.0,
+      "containment_threshold": 0.9,
+      "mention_f1": 0.7065759637188208,
+      "document_f1": 0.7522567703109329
+    },
+    {
+      "ner_threshold": 0.85,
+      "replace_threshold": 1.0,
+      "dense_threshold": 0.9,
+      "agreement_threshold": 1.0,
+      "containment_threshold": 0.95,
+      "mention_f1": 0.7092970521541951,
+      "document_f1": 0.7567567567567568
+    },
+    {
+      "ner_threshold": 0.85,
+      "replace_threshold": 1.0,
+      "dense_threshold": 0.9,
+      "agreement_threshold": 1.0,
+      "containment_threshold": 1.0,
+      "mention_f1": 0.6984126984126985,
+      "document_f1": 0.7426841574167508
+    },
+    {
+      "ner_threshold": 0.85,
+      "replace_threshold": 1.0,
+      "dense_threshold": 0.95,
+      "agreement_threshold": 0.9,
+      "containment_threshold": 0.8,
+      "mention_f1": 0.6987505784359094,
+      "document_f1": 0.7392197125256673
+    },
+    {
+      "ner_threshold": 0.85,
+      "replace_threshold": 1.0,
+      "dense_threshold": 0.95,
+      "agreement_threshold": 0.9,
+      "containment_threshold": 0.85,
+      "mention_f1": 0.6987505784359094,
+      "document_f1": 0.7392197125256673
+    },
+    {
+      "ner_threshold": 0.85,
+      "replace_threshold": 1.0,
+      "dense_threshold": 0.95,
+      "agreement_threshold": 0.9,
+      "containment_threshold": 0.9,
+      "mention_f1": 0.6996760758907913,
+      "document_f1": 0.7399794450154163
+    },
+    {
+      "ner_threshold": 0.85,
+      "replace_threshold": 1.0,
+      "dense_threshold": 0.95,
+      "agreement_threshold": 0.9,
+      "containment_threshold": 0.95,
+      "mention_f1": 0.7006015733456732,
+      "document_f1": 0.7412731006160165
+    },
+    {
+      "ner_threshold": 0.85,
+      "replace_threshold": 1.0,
+      "dense_threshold": 0.95,
+      "agreement_threshold": 0.9,
+      "containment_threshold": 1.0,
+      "mention_f1": 0.6950485886163814,
+      "document_f1": 0.731958762886598
+    },
+    {
+      "ner_threshold": 0.85,
+      "replace_threshold": 1.0,
+      "dense_threshold": 0.95,
+      "agreement_threshold": 0.95,
+      "containment_threshold": 0.8,
+      "mention_f1": 0.6987505784359094,
+      "document_f1": 0.7392197125256673
+    },
+    {
+      "ner_threshold": 0.85,
+      "replace_threshold": 1.0,
+      "dense_threshold": 0.95,
+      "agreement_threshold": 0.95,
+      "containment_threshold": 0.85,
+      "mention_f1": 0.6987505784359094,
+      "document_f1": 0.7392197125256673
+    },
+    {
+      "ner_threshold": 0.85,
+      "replace_threshold": 1.0,
+      "dense_threshold": 0.95,
+      "agreement_threshold": 0.95,
+      "containment_threshold": 0.9,
+      "mention_f1": 0.6996760758907913,
+      "document_f1": 0.7399794450154163
+    },
+    {
+      "ner_threshold": 0.85,
+      "replace_threshold": 1.0,
+      "dense_threshold": 0.95,
+      "agreement_threshold": 0.95,
+      "containment_threshold": 0.95,
+      "mention_f1": 0.7006015733456732,
+      "document_f1": 0.7412731006160165
+    },
+    {
+      "ner_threshold": 0.85,
+      "replace_threshold": 1.0,
+      "dense_threshold": 0.95,
+      "agreement_threshold": 0.95,
+      "containment_threshold": 1.0,
+      "mention_f1": 0.6950485886163814,
+      "document_f1": 0.731958762886598
+    },
+    {
+      "ner_threshold": 0.85,
+      "replace_threshold": 1.0,
+      "dense_threshold": 0.95,
+      "agreement_threshold": 1.0,
+      "containment_threshold": 0.8,
+      "mention_f1": 0.6987505784359094,
+      "document_f1": 0.7392197125256673
+    },
+    {
+      "ner_threshold": 0.85,
+      "replace_threshold": 1.0,
+      "dense_threshold": 0.95,
+      "agreement_threshold": 1.0,
+      "containment_threshold": 0.85,
+      "mention_f1": 0.6987505784359094,
+      "document_f1": 0.7392197125256673
+    },
+    {
+      "ner_threshold": 0.85,
+      "replace_threshold": 1.0,
+      "dense_threshold": 0.95,
+      "agreement_threshold": 1.0,
+      "containment_threshold": 0.9,
+      "mention_f1": 0.6996760758907913,
+      "document_f1": 0.7399794450154163
+    },
+    {
+      "ner_threshold": 0.85,
+      "replace_threshold": 1.0,
+      "dense_threshold": 0.95,
+      "agreement_threshold": 1.0,
+      "containment_threshold": 0.95,
+      "mention_f1": 0.7006015733456732,
+      "document_f1": 0.7412731006160165
+    },
+    {
+      "ner_threshold": 0.85,
+      "replace_threshold": 1.0,
+      "dense_threshold": 0.95,
+      "agreement_threshold": 1.0,
+      "containment_threshold": 1.0,
+      "mention_f1": 0.6950485886163814,
+      "document_f1": 0.731958762886598
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "patientphex-hpo"
+version = "0.1.0"
+description = "CHIP2026 PatientPheX task 1 phenotype recognition and HPO normalization"
+requires-python = ">=3.10"
+dependencies = []
+
+[project.optional-dependencies]
+ml = [
+  "numpy>=1.26,<3",
+  "torch>=2.2",
+  "transformers>=4.44",
+  "sentence-transformers>=3.0",
+  "faiss-cpu>=1.8",
+]
+dev = ["pytest>=8", "ruff>=0.6"]
+
+[project.scripts]
+hpo-pipeline = "hpo_pipeline.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 100

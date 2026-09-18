@@ -1,0 +1,1484 @@
+{
+  "experiment": "sapbert_ontology_plus_training_mentions",
+  "training_mention_pairs": 2365,
+  "entities": 1150,
+  "best": {
+    "training_weight": 1.05,
+    "lexical_weight": 0.1,
+    "depth_weight": 0.01,
+    "recall_at_1": 0.8701964133219471,
+    "single_id_top1_accuracy": 0.8888888888888888
+  },
+  "grid": [
+    {
+      "training_weight": 0.8,
+      "lexical_weight": 0.0,
+      "depth_weight": 0.0,
+      "recall_at_1": 0.8454312553373186,
+      "single_id_top1_accuracy": 0.8641975308641975
+    },
+    {
+      "training_weight": 0.8,
+      "lexical_weight": 0.0,
+      "depth_weight": 0.001,
+      "recall_at_1": 0.8445772843723314,
+      "single_id_top1_accuracy": 0.86331569664903
+    },
+    {
+      "training_weight": 0.8,
+      "lexical_weight": 0.0,
+      "depth_weight": 0.002,
+      "recall_at_1": 0.8454312553373186,
+      "single_id_top1_accuracy": 0.8641975308641975
+    },
+    {
+      "training_weight": 0.8,
+      "lexical_weight": 0.0,
+      "depth_weight": 0.005,
+      "recall_at_1": 0.8471391972672929,
+      "single_id_top1_accuracy": 0.8659611992945326
+    },
+    {
+      "training_weight": 0.8,
+      "lexical_weight": 0.0,
+      "depth_weight": 0.01,
+      "recall_at_1": 0.8437233134073442,
+      "single_id_top1_accuracy": 0.8624338624338624
+    },
+    {
+      "training_weight": 0.8,
+      "lexical_weight": 0.02,
+      "depth_weight": 0.0,
+      "recall_at_1": 0.8471391972672929,
+      "single_id_top1_accuracy": 0.8668430335097002
+    },
+    {
+      "training_weight": 0.8,
+      "lexical_weight": 0.02,
+      "depth_weight": 0.001,
+      "recall_at_1": 0.8471391972672929,
+      "single_id_top1_accuracy": 0.8659611992945326
+    },
+    {
+      "training_weight": 0.8,
+      "lexical_weight": 0.02,
+      "depth_weight": 0.002,
+      "recall_at_1": 0.8471391972672929,
+      "single_id_top1_accuracy": 0.8659611992945326
+    },
+    {
+      "training_weight": 0.8,
+      "lexical_weight": 0.02,
+      "depth_weight": 0.005,
+      "recall_at_1": 0.8488471391972673,
+      "single_id_top1_accuracy": 0.8677248677248677
+    },
+    {
+      "training_weight": 0.8,
+      "lexical_weight": 0.02,
+      "depth_weight": 0.01,
+      "recall_at_1": 0.8462852263023057,
+      "single_id_top1_accuracy": 0.8650793650793651
+    },
+    {
+      "training_weight": 0.8,
+      "lexical_weight": 0.05,
+      "depth_weight": 0.0,
+      "recall_at_1": 0.8471391972672929,
+      "single_id_top1_accuracy": 0.8668430335097002
+    },
+    {
+      "training_weight": 0.8,
+      "lexical_weight": 0.05,
+      "depth_weight": 0.001,
+      "recall_at_1": 0.8462852263023057,
+      "single_id_top1_accuracy": 0.8659611992945326
+    },
+    {
+      "training_weight": 0.8,
+      "lexical_weight": 0.05,
+      "depth_weight": 0.002,
+      "recall_at_1": 0.8479931682322801,
+      "single_id_top1_accuracy": 0.8668430335097002
+    },
+    {
+      "training_weight": 0.8,
+      "lexical_weight": 0.05,
+      "depth_weight": 0.005,
+      "recall_at_1": 0.852263023057216,
+      "single_id_top1_accuracy": 0.8712522045855379
+    },
+    {
+      "training_weight": 0.8,
+      "lexical_weight": 0.05,
+      "depth_weight": 0.01,
+      "recall_at_1": 0.8488471391972673,
+      "single_id_top1_accuracy": 0.8677248677248677
+    },
+    {
+      "training_weight": 0.8,
+      "lexical_weight": 0.08,
+      "depth_weight": 0.0,
+      "recall_at_1": 0.8497011101622545,
+      "single_id_top1_accuracy": 0.8694885361552028
+    },
+    {
+      "training_weight": 0.8,
+      "lexical_weight": 0.08,
+      "depth_weight": 0.001,
+      "recall_at_1": 0.8488471391972673,
+      "single_id_top1_accuracy": 0.8686067019400353
+    },
+    {
+      "training_weight": 0.8,
+      "lexical_weight": 0.08,
+      "depth_weight": 0.002,
+      "recall_at_1": 0.8514090520922288,
+      "single_id_top1_accuracy": 0.8703703703703703
+    },
+    {
+      "training_weight": 0.8,
+      "lexical_weight": 0.08,
+      "depth_weight": 0.005,
+      "recall_at_1": 0.8497011101622545,
+      "single_id_top1_accuracy": 0.8686067019400353
+    },
+    {
+      "training_weight": 0.8,
+      "lexical_weight": 0.08,
+      "depth_weight": 0.01,
+      "recall_at_1": 0.8488471391972673,
+      "single_id_top1_accuracy": 0.8677248677248677
+    },
+    {
+      "training_weight": 0.8,
+      "lexical_weight": 0.1,
+      "depth_weight": 0.0,
+      "recall_at_1": 0.8539709649871904,
+      "single_id_top1_accuracy": 0.8738977072310405
+    },
+    {
+      "training_weight": 0.8,
+      "lexical_weight": 0.1,
+      "depth_weight": 0.001,
+      "recall_at_1": 0.8531169940222032,
+      "single_id_top1_accuracy": 0.873015873015873
+    },
+    {
+      "training_weight": 0.8,
+      "lexical_weight": 0.1,
+      "depth_weight": 0.002,
+      "recall_at_1": 0.8531169940222032,
+      "single_id_top1_accuracy": 0.873015873015873
+    },
+    {
+      "training_weight": 0.8,
+      "lexical_weight": 0.1,
+      "depth_weight": 0.005,
+      "recall_at_1": 0.852263023057216,
+      "single_id_top1_accuracy": 0.8712522045855379
+    },
+    {
+      "training_weight": 0.8,
+      "lexical_weight": 0.1,
+      "depth_weight": 0.01,
+      "recall_at_1": 0.8505550811272417,
+      "single_id_top1_accuracy": 0.8694885361552028
+    },
+    {
+      "training_weight": 0.8,
+      "lexical_weight": 0.15,
+      "depth_weight": 0.0,
+      "recall_at_1": 0.8539709649871904,
+      "single_id_top1_accuracy": 0.873015873015873
+    },
+    {
+      "training_weight": 0.8,
+      "lexical_weight": 0.15,
+      "depth_weight": 0.001,
+      "recall_at_1": 0.8531169940222032,
+      "single_id_top1_accuracy": 0.8721340388007055
+    },
+    {
+      "training_weight": 0.8,
+      "lexical_weight": 0.15,
+      "depth_weight": 0.002,
+      "recall_at_1": 0.8539709649871904,
+      "single_id_top1_accuracy": 0.873015873015873
+    },
+    {
+      "training_weight": 0.8,
+      "lexical_weight": 0.15,
+      "depth_weight": 0.005,
+      "recall_at_1": 0.8531169940222032,
+      "single_id_top1_accuracy": 0.8712522045855379
+    },
+    {
+      "training_weight": 0.8,
+      "lexical_weight": 0.15,
+      "depth_weight": 0.01,
+      "recall_at_1": 0.8505550811272417,
+      "single_id_top1_accuracy": 0.8686067019400353
+    },
+    {
+      "training_weight": 0.85,
+      "lexical_weight": 0.0,
+      "depth_weight": 0.0,
+      "recall_at_1": 0.8462852263023057,
+      "single_id_top1_accuracy": 0.8650793650793651
+    },
+    {
+      "training_weight": 0.85,
+      "lexical_weight": 0.0,
+      "depth_weight": 0.001,
+      "recall_at_1": 0.8454312553373186,
+      "single_id_top1_accuracy": 0.8641975308641975
+    },
+    {
+      "training_weight": 0.85,
+      "lexical_weight": 0.0,
+      "depth_weight": 0.002,
+      "recall_at_1": 0.8462852263023057,
+      "single_id_top1_accuracy": 0.8650793650793651
+    },
+    {
+      "training_weight": 0.85,
+      "lexical_weight": 0.0,
+      "depth_weight": 0.005,
+      "recall_at_1": 0.8479931682322801,
+      "single_id_top1_accuracy": 0.8668430335097002
+    },
+    {
+      "training_weight": 0.85,
+      "lexical_weight": 0.0,
+      "depth_weight": 0.01,
+      "recall_at_1": 0.8445772843723314,
+      "single_id_top1_accuracy": 0.86331569664903
+    },
+    {
+      "training_weight": 0.85,
+      "lexical_weight": 0.02,
+      "depth_weight": 0.0,
+      "recall_at_1": 0.8488471391972673,
+      "single_id_top1_accuracy": 0.8686067019400353
+    },
+    {
+      "training_weight": 0.85,
+      "lexical_weight": 0.02,
+      "depth_weight": 0.001,
+      "recall_at_1": 0.8479931682322801,
+      "single_id_top1_accuracy": 0.8668430335097002
+    },
+    {
+      "training_weight": 0.85,
+      "lexical_weight": 0.02,
+      "depth_weight": 0.002,
+      "recall_at_1": 0.8479931682322801,
+      "single_id_top1_accuracy": 0.8668430335097002
+    },
+    {
+      "training_weight": 0.85,
+      "lexical_weight": 0.02,
+      "depth_weight": 0.005,
+      "recall_at_1": 0.8497011101622545,
+      "single_id_top1_accuracy": 0.8686067019400353
+    },
+    {
+      "training_weight": 0.85,
+      "lexical_weight": 0.02,
+      "depth_weight": 0.01,
+      "recall_at_1": 0.8471391972672929,
+      "single_id_top1_accuracy": 0.8659611992945326
+    },
+    {
+      "training_weight": 0.85,
+      "lexical_weight": 0.05,
+      "depth_weight": 0.0,
+      "recall_at_1": 0.8497011101622545,
+      "single_id_top1_accuracy": 0.8694885361552028
+    },
+    {
+      "training_weight": 0.85,
+      "lexical_weight": 0.05,
+      "depth_weight": 0.001,
+      "recall_at_1": 0.8479931682322801,
+      "single_id_top1_accuracy": 0.8677248677248677
+    },
+    {
+      "training_weight": 0.85,
+      "lexical_weight": 0.05,
+      "depth_weight": 0.002,
+      "recall_at_1": 0.8497011101622545,
+      "single_id_top1_accuracy": 0.8686067019400353
+    },
+    {
+      "training_weight": 0.85,
+      "lexical_weight": 0.05,
+      "depth_weight": 0.005,
+      "recall_at_1": 0.8539709649871904,
+      "single_id_top1_accuracy": 0.873015873015873
+    },
+    {
+      "training_weight": 0.85,
+      "lexical_weight": 0.05,
+      "depth_weight": 0.01,
+      "recall_at_1": 0.8505550811272417,
+      "single_id_top1_accuracy": 0.8694885361552028
+    },
+    {
+      "training_weight": 0.85,
+      "lexical_weight": 0.08,
+      "depth_weight": 0.0,
+      "recall_at_1": 0.852263023057216,
+      "single_id_top1_accuracy": 0.8721340388007055
+    },
+    {
+      "training_weight": 0.85,
+      "lexical_weight": 0.08,
+      "depth_weight": 0.001,
+      "recall_at_1": 0.8505550811272417,
+      "single_id_top1_accuracy": 0.8703703703703703
+    },
+    {
+      "training_weight": 0.85,
+      "lexical_weight": 0.08,
+      "depth_weight": 0.002,
+      "recall_at_1": 0.8531169940222032,
+      "single_id_top1_accuracy": 0.8721340388007055
+    },
+    {
+      "training_weight": 0.85,
+      "lexical_weight": 0.08,
+      "depth_weight": 0.005,
+      "recall_at_1": 0.8514090520922288,
+      "single_id_top1_accuracy": 0.8703703703703703
+    },
+    {
+      "training_weight": 0.85,
+      "lexical_weight": 0.08,
+      "depth_weight": 0.01,
+      "recall_at_1": 0.8505550811272417,
+      "single_id_top1_accuracy": 0.8694885361552028
+    },
+    {
+      "training_weight": 0.85,
+      "lexical_weight": 0.1,
+      "depth_weight": 0.0,
+      "recall_at_1": 0.8548249359521777,
+      "single_id_top1_accuracy": 0.8747795414462081
+    },
+    {
+      "training_weight": 0.85,
+      "lexical_weight": 0.1,
+      "depth_weight": 0.001,
+      "recall_at_1": 0.8531169940222032,
+      "single_id_top1_accuracy": 0.873015873015873
+    },
+    {
+      "training_weight": 0.85,
+      "lexical_weight": 0.1,
+      "depth_weight": 0.002,
+      "recall_at_1": 0.8531169940222032,
+      "single_id_top1_accuracy": 0.873015873015873
+    },
+    {
+      "training_weight": 0.85,
+      "lexical_weight": 0.1,
+      "depth_weight": 0.005,
+      "recall_at_1": 0.8531169940222032,
+      "single_id_top1_accuracy": 0.8721340388007055
+    },
+    {
+      "training_weight": 0.85,
+      "lexical_weight": 0.1,
+      "depth_weight": 0.01,
+      "recall_at_1": 0.852263023057216,
+      "single_id_top1_accuracy": 0.8712522045855379
+    },
+    {
+      "training_weight": 0.85,
+      "lexical_weight": 0.15,
+      "depth_weight": 0.0,
+      "recall_at_1": 0.8556789069171649,
+      "single_id_top1_accuracy": 0.8747795414462081
+    },
+    {
+      "training_weight": 0.85,
+      "lexical_weight": 0.15,
+      "depth_weight": 0.001,
+      "recall_at_1": 0.8539709649871904,
+      "single_id_top1_accuracy": 0.873015873015873
+    },
+    {
+      "training_weight": 0.85,
+      "lexical_weight": 0.15,
+      "depth_weight": 0.002,
+      "recall_at_1": 0.8548249359521777,
+      "single_id_top1_accuracy": 0.8738977072310405
+    },
+    {
+      "training_weight": 0.85,
+      "lexical_weight": 0.15,
+      "depth_weight": 0.005,
+      "recall_at_1": 0.8539709649871904,
+      "single_id_top1_accuracy": 0.8721340388007055
+    },
+    {
+      "training_weight": 0.85,
+      "lexical_weight": 0.15,
+      "depth_weight": 0.01,
+      "recall_at_1": 0.8514090520922288,
+      "single_id_top1_accuracy": 0.8694885361552028
+    },
+    {
+      "training_weight": 0.9,
+      "lexical_weight": 0.0,
+      "depth_weight": 0.0,
+      "recall_at_1": 0.8497011101622545,
+      "single_id_top1_accuracy": 0.8686067019400353
+    },
+    {
+      "training_weight": 0.9,
+      "lexical_weight": 0.0,
+      "depth_weight": 0.001,
+      "recall_at_1": 0.8497011101622545,
+      "single_id_top1_accuracy": 0.8686067019400353
+    },
+    {
+      "training_weight": 0.9,
+      "lexical_weight": 0.0,
+      "depth_weight": 0.002,
+      "recall_at_1": 0.8514090520922288,
+      "single_id_top1_accuracy": 0.8703703703703703
+    },
+    {
+      "training_weight": 0.9,
+      "lexical_weight": 0.0,
+      "depth_weight": 0.005,
+      "recall_at_1": 0.8514090520922288,
+      "single_id_top1_accuracy": 0.8703703703703703
+    },
+    {
+      "training_weight": 0.9,
+      "lexical_weight": 0.0,
+      "depth_weight": 0.01,
+      "recall_at_1": 0.8479931682322801,
+      "single_id_top1_accuracy": 0.8668430335097002
+    },
+    {
+      "training_weight": 0.9,
+      "lexical_weight": 0.02,
+      "depth_weight": 0.0,
+      "recall_at_1": 0.8531169940222032,
+      "single_id_top1_accuracy": 0.873015873015873
+    },
+    {
+      "training_weight": 0.9,
+      "lexical_weight": 0.02,
+      "depth_weight": 0.001,
+      "recall_at_1": 0.8539709649871904,
+      "single_id_top1_accuracy": 0.873015873015873
+    },
+    {
+      "training_weight": 0.9,
+      "lexical_weight": 0.02,
+      "depth_weight": 0.002,
+      "recall_at_1": 0.8539709649871904,
+      "single_id_top1_accuracy": 0.873015873015873
+    },
+    {
+      "training_weight": 0.9,
+      "lexical_weight": 0.02,
+      "depth_weight": 0.005,
+      "recall_at_1": 0.8539709649871904,
+      "single_id_top1_accuracy": 0.873015873015873
+    },
+    {
+      "training_weight": 0.9,
+      "lexical_weight": 0.02,
+      "depth_weight": 0.01,
+      "recall_at_1": 0.8514090520922288,
+      "single_id_top1_accuracy": 0.8703703703703703
+    },
+    {
+      "training_weight": 0.9,
+      "lexical_weight": 0.05,
+      "depth_weight": 0.0,
+      "recall_at_1": 0.8531169940222032,
+      "single_id_top1_accuracy": 0.873015873015873
+    },
+    {
+      "training_weight": 0.9,
+      "lexical_weight": 0.05,
+      "depth_weight": 0.001,
+      "recall_at_1": 0.8531169940222032,
+      "single_id_top1_accuracy": 0.873015873015873
+    },
+    {
+      "training_weight": 0.9,
+      "lexical_weight": 0.05,
+      "depth_weight": 0.002,
+      "recall_at_1": 0.8548249359521777,
+      "single_id_top1_accuracy": 0.8738977072310405
+    },
+    {
+      "training_weight": 0.9,
+      "lexical_weight": 0.05,
+      "depth_weight": 0.005,
+      "recall_at_1": 0.8573868488471392,
+      "single_id_top1_accuracy": 0.8765432098765432
+    },
+    {
+      "training_weight": 0.9,
+      "lexical_weight": 0.05,
+      "depth_weight": 0.01,
+      "recall_at_1": 0.8539709649871904,
+      "single_id_top1_accuracy": 0.873015873015873
+    },
+    {
+      "training_weight": 0.9,
+      "lexical_weight": 0.08,
+      "depth_weight": 0.0,
+      "recall_at_1": 0.856532877882152,
+      "single_id_top1_accuracy": 0.8765432098765432
+    },
+    {
+      "training_weight": 0.9,
+      "lexical_weight": 0.08,
+      "depth_weight": 0.001,
+      "recall_at_1": 0.856532877882152,
+      "single_id_top1_accuracy": 0.8765432098765432
+    },
+    {
+      "training_weight": 0.9,
+      "lexical_weight": 0.08,
+      "depth_weight": 0.002,
+      "recall_at_1": 0.8590947907771136,
+      "single_id_top1_accuracy": 0.8783068783068783
+    },
+    {
+      "training_weight": 0.9,
+      "lexical_weight": 0.08,
+      "depth_weight": 0.005,
+      "recall_at_1": 0.8556789069171649,
+      "single_id_top1_accuracy": 0.8747795414462081
+    },
+    {
+      "training_weight": 0.9,
+      "lexical_weight": 0.08,
+      "depth_weight": 0.01,
+      "recall_at_1": 0.8548249359521777,
+      "single_id_top1_accuracy": 0.8738977072310405
+    },
+    {
+      "training_weight": 0.9,
+      "lexical_weight": 0.1,
+      "depth_weight": 0.0,
+      "recall_at_1": 0.8582408198121264,
+      "single_id_top1_accuracy": 0.8783068783068783
+    },
+    {
+      "training_weight": 0.9,
+      "lexical_weight": 0.1,
+      "depth_weight": 0.001,
+      "recall_at_1": 0.8582408198121264,
+      "single_id_top1_accuracy": 0.8783068783068783
+    },
+    {
+      "training_weight": 0.9,
+      "lexical_weight": 0.1,
+      "depth_weight": 0.002,
+      "recall_at_1": 0.8582408198121264,
+      "single_id_top1_accuracy": 0.8783068783068783
+    },
+    {
+      "training_weight": 0.9,
+      "lexical_weight": 0.1,
+      "depth_weight": 0.005,
+      "recall_at_1": 0.856532877882152,
+      "single_id_top1_accuracy": 0.8756613756613757
+    },
+    {
+      "training_weight": 0.9,
+      "lexical_weight": 0.1,
+      "depth_weight": 0.01,
+      "recall_at_1": 0.8548249359521777,
+      "single_id_top1_accuracy": 0.8738977072310405
+    },
+    {
+      "training_weight": 0.9,
+      "lexical_weight": 0.15,
+      "depth_weight": 0.0,
+      "recall_at_1": 0.856532877882152,
+      "single_id_top1_accuracy": 0.8756613756613757
+    },
+    {
+      "training_weight": 0.9,
+      "lexical_weight": 0.15,
+      "depth_weight": 0.001,
+      "recall_at_1": 0.856532877882152,
+      "single_id_top1_accuracy": 0.8756613756613757
+    },
+    {
+      "training_weight": 0.9,
+      "lexical_weight": 0.15,
+      "depth_weight": 0.002,
+      "recall_at_1": 0.8573868488471392,
+      "single_id_top1_accuracy": 0.8765432098765432
+    },
+    {
+      "training_weight": 0.9,
+      "lexical_weight": 0.15,
+      "depth_weight": 0.005,
+      "recall_at_1": 0.856532877882152,
+      "single_id_top1_accuracy": 0.8747795414462081
+    },
+    {
+      "training_weight": 0.9,
+      "lexical_weight": 0.15,
+      "depth_weight": 0.01,
+      "recall_at_1": 0.8539709649871904,
+      "single_id_top1_accuracy": 0.8721340388007055
+    },
+    {
+      "training_weight": 0.95,
+      "lexical_weight": 0.0,
+      "depth_weight": 0.0,
+      "recall_at_1": 0.8514090520922288,
+      "single_id_top1_accuracy": 0.8703703703703703
+    },
+    {
+      "training_weight": 0.95,
+      "lexical_weight": 0.0,
+      "depth_weight": 0.001,
+      "recall_at_1": 0.8514090520922288,
+      "single_id_top1_accuracy": 0.8703703703703703
+    },
+    {
+      "training_weight": 0.95,
+      "lexical_weight": 0.0,
+      "depth_weight": 0.002,
+      "recall_at_1": 0.852263023057216,
+      "single_id_top1_accuracy": 0.8712522045855379
+    },
+    {
+      "training_weight": 0.95,
+      "lexical_weight": 0.0,
+      "depth_weight": 0.005,
+      "recall_at_1": 0.8539709649871904,
+      "single_id_top1_accuracy": 0.873015873015873
+    },
+    {
+      "training_weight": 0.95,
+      "lexical_weight": 0.0,
+      "depth_weight": 0.01,
+      "recall_at_1": 0.8497011101622545,
+      "single_id_top1_accuracy": 0.8686067019400353
+    },
+    {
+      "training_weight": 0.95,
+      "lexical_weight": 0.02,
+      "depth_weight": 0.0,
+      "recall_at_1": 0.8531169940222032,
+      "single_id_top1_accuracy": 0.873015873015873
+    },
+    {
+      "training_weight": 0.95,
+      "lexical_weight": 0.02,
+      "depth_weight": 0.001,
+      "recall_at_1": 0.8539709649871904,
+      "single_id_top1_accuracy": 0.873015873015873
+    },
+    {
+      "training_weight": 0.95,
+      "lexical_weight": 0.02,
+      "depth_weight": 0.002,
+      "recall_at_1": 0.8539709649871904,
+      "single_id_top1_accuracy": 0.873015873015873
+    },
+    {
+      "training_weight": 0.95,
+      "lexical_weight": 0.02,
+      "depth_weight": 0.005,
+      "recall_at_1": 0.856532877882152,
+      "single_id_top1_accuracy": 0.8756613756613757
+    },
+    {
+      "training_weight": 0.95,
+      "lexical_weight": 0.02,
+      "depth_weight": 0.01,
+      "recall_at_1": 0.852263023057216,
+      "single_id_top1_accuracy": 0.8712522045855379
+    },
+    {
+      "training_weight": 0.95,
+      "lexical_weight": 0.05,
+      "depth_weight": 0.0,
+      "recall_at_1": 0.8531169940222032,
+      "single_id_top1_accuracy": 0.873015873015873
+    },
+    {
+      "training_weight": 0.95,
+      "lexical_weight": 0.05,
+      "depth_weight": 0.001,
+      "recall_at_1": 0.8531169940222032,
+      "single_id_top1_accuracy": 0.873015873015873
+    },
+    {
+      "training_weight": 0.95,
+      "lexical_weight": 0.05,
+      "depth_weight": 0.002,
+      "recall_at_1": 0.8548249359521777,
+      "single_id_top1_accuracy": 0.8738977072310405
+    },
+    {
+      "training_weight": 0.95,
+      "lexical_weight": 0.05,
+      "depth_weight": 0.005,
+      "recall_at_1": 0.8590947907771136,
+      "single_id_top1_accuracy": 0.8783068783068783
+    },
+    {
+      "training_weight": 0.95,
+      "lexical_weight": 0.05,
+      "depth_weight": 0.01,
+      "recall_at_1": 0.8556789069171649,
+      "single_id_top1_accuracy": 0.8747795414462081
+    },
+    {
+      "training_weight": 0.95,
+      "lexical_weight": 0.08,
+      "depth_weight": 0.0,
+      "recall_at_1": 0.856532877882152,
+      "single_id_top1_accuracy": 0.8765432098765432
+    },
+    {
+      "training_weight": 0.95,
+      "lexical_weight": 0.08,
+      "depth_weight": 0.001,
+      "recall_at_1": 0.856532877882152,
+      "single_id_top1_accuracy": 0.8765432098765432
+    },
+    {
+      "training_weight": 0.95,
+      "lexical_weight": 0.08,
+      "depth_weight": 0.002,
+      "recall_at_1": 0.8590947907771136,
+      "single_id_top1_accuracy": 0.8783068783068783
+    },
+    {
+      "training_weight": 0.95,
+      "lexical_weight": 0.08,
+      "depth_weight": 0.005,
+      "recall_at_1": 0.8573868488471392,
+      "single_id_top1_accuracy": 0.8765432098765432
+    },
+    {
+      "training_weight": 0.95,
+      "lexical_weight": 0.08,
+      "depth_weight": 0.01,
+      "recall_at_1": 0.856532877882152,
+      "single_id_top1_accuracy": 0.8756613756613757
+    },
+    {
+      "training_weight": 0.95,
+      "lexical_weight": 0.1,
+      "depth_weight": 0.0,
+      "recall_at_1": 0.8590947907771136,
+      "single_id_top1_accuracy": 0.8791887125220459
+    },
+    {
+      "training_weight": 0.95,
+      "lexical_weight": 0.1,
+      "depth_weight": 0.001,
+      "recall_at_1": 0.8590947907771136,
+      "single_id_top1_accuracy": 0.8791887125220459
+    },
+    {
+      "training_weight": 0.95,
+      "lexical_weight": 0.1,
+      "depth_weight": 0.002,
+      "recall_at_1": 0.8590947907771136,
+      "single_id_top1_accuracy": 0.8791887125220459
+    },
+    {
+      "training_weight": 0.95,
+      "lexical_weight": 0.1,
+      "depth_weight": 0.005,
+      "recall_at_1": 0.8582408198121264,
+      "single_id_top1_accuracy": 0.8774250440917107
+    },
+    {
+      "training_weight": 0.95,
+      "lexical_weight": 0.1,
+      "depth_weight": 0.01,
+      "recall_at_1": 0.8582408198121264,
+      "single_id_top1_accuracy": 0.8774250440917107
+    },
+    {
+      "training_weight": 0.95,
+      "lexical_weight": 0.15,
+      "depth_weight": 0.0,
+      "recall_at_1": 0.8590947907771136,
+      "single_id_top1_accuracy": 0.8774250440917107
+    },
+    {
+      "training_weight": 0.95,
+      "lexical_weight": 0.15,
+      "depth_weight": 0.001,
+      "recall_at_1": 0.8590947907771136,
+      "single_id_top1_accuracy": 0.8774250440917107
+    },
+    {
+      "training_weight": 0.95,
+      "lexical_weight": 0.15,
+      "depth_weight": 0.002,
+      "recall_at_1": 0.8599487617421008,
+      "single_id_top1_accuracy": 0.8783068783068783
+    },
+    {
+      "training_weight": 0.95,
+      "lexical_weight": 0.15,
+      "depth_weight": 0.005,
+      "recall_at_1": 0.8590947907771136,
+      "single_id_top1_accuracy": 0.8774250440917107
+    },
+    {
+      "training_weight": 0.95,
+      "lexical_weight": 0.15,
+      "depth_weight": 0.01,
+      "recall_at_1": 0.856532877882152,
+      "single_id_top1_accuracy": 0.8747795414462081
+    },
+    {
+      "training_weight": 1.0,
+      "lexical_weight": 0.0,
+      "depth_weight": 0.0,
+      "recall_at_1": 0.8539709649871904,
+      "single_id_top1_accuracy": 0.873015873015873
+    },
+    {
+      "training_weight": 1.0,
+      "lexical_weight": 0.0,
+      "depth_weight": 0.001,
+      "recall_at_1": 0.8462852263023057,
+      "single_id_top1_accuracy": 0.8650793650793651
+    },
+    {
+      "training_weight": 1.0,
+      "lexical_weight": 0.0,
+      "depth_weight": 0.002,
+      "recall_at_1": 0.8462852263023057,
+      "single_id_top1_accuracy": 0.8650793650793651
+    },
+    {
+      "training_weight": 1.0,
+      "lexical_weight": 0.0,
+      "depth_weight": 0.005,
+      "recall_at_1": 0.8479931682322801,
+      "single_id_top1_accuracy": 0.8668430335097002
+    },
+    {
+      "training_weight": 1.0,
+      "lexical_weight": 0.0,
+      "depth_weight": 0.01,
+      "recall_at_1": 0.8454312553373186,
+      "single_id_top1_accuracy": 0.8641975308641975
+    },
+    {
+      "training_weight": 1.0,
+      "lexical_weight": 0.02,
+      "depth_weight": 0.0,
+      "recall_at_1": 0.856532877882152,
+      "single_id_top1_accuracy": 0.8756613756613757
+    },
+    {
+      "training_weight": 1.0,
+      "lexical_weight": 0.02,
+      "depth_weight": 0.001,
+      "recall_at_1": 0.856532877882152,
+      "single_id_top1_accuracy": 0.8747795414462081
+    },
+    {
+      "training_weight": 1.0,
+      "lexical_weight": 0.02,
+      "depth_weight": 0.002,
+      "recall_at_1": 0.8556789069171649,
+      "single_id_top1_accuracy": 0.8747795414462081
+    },
+    {
+      "training_weight": 1.0,
+      "lexical_weight": 0.02,
+      "depth_weight": 0.005,
+      "recall_at_1": 0.8573868488471392,
+      "single_id_top1_accuracy": 0.8765432098765432
+    },
+    {
+      "training_weight": 1.0,
+      "lexical_weight": 0.02,
+      "depth_weight": 0.01,
+      "recall_at_1": 0.8488471391972673,
+      "single_id_top1_accuracy": 0.8677248677248677
+    },
+    {
+      "training_weight": 1.0,
+      "lexical_weight": 0.05,
+      "depth_weight": 0.0,
+      "recall_at_1": 0.856532877882152,
+      "single_id_top1_accuracy": 0.8756613756613757
+    },
+    {
+      "training_weight": 1.0,
+      "lexical_weight": 0.05,
+      "depth_weight": 0.001,
+      "recall_at_1": 0.856532877882152,
+      "single_id_top1_accuracy": 0.8756613756613757
+    },
+    {
+      "training_weight": 1.0,
+      "lexical_weight": 0.05,
+      "depth_weight": 0.002,
+      "recall_at_1": 0.8582408198121264,
+      "single_id_top1_accuracy": 0.8765432098765432
+    },
+    {
+      "training_weight": 1.0,
+      "lexical_weight": 0.05,
+      "depth_weight": 0.005,
+      "recall_at_1": 0.8599487617421008,
+      "single_id_top1_accuracy": 0.8791887125220459
+    },
+    {
+      "training_weight": 1.0,
+      "lexical_weight": 0.05,
+      "depth_weight": 0.01,
+      "recall_at_1": 0.8590947907771136,
+      "single_id_top1_accuracy": 0.8783068783068783
+    },
+    {
+      "training_weight": 1.0,
+      "lexical_weight": 0.08,
+      "depth_weight": 0.0,
+      "recall_at_1": 0.8582408198121264,
+      "single_id_top1_accuracy": 0.8774250440917107
+    },
+    {
+      "training_weight": 1.0,
+      "lexical_weight": 0.08,
+      "depth_weight": 0.001,
+      "recall_at_1": 0.8590947907771136,
+      "single_id_top1_accuracy": 0.8783068783068783
+    },
+    {
+      "training_weight": 1.0,
+      "lexical_weight": 0.08,
+      "depth_weight": 0.002,
+      "recall_at_1": 0.8616567036720751,
+      "single_id_top1_accuracy": 0.8800705467372134
+    },
+    {
+      "training_weight": 1.0,
+      "lexical_weight": 0.08,
+      "depth_weight": 0.005,
+      "recall_at_1": 0.8590947907771136,
+      "single_id_top1_accuracy": 0.8774250440917107
+    },
+    {
+      "training_weight": 1.0,
+      "lexical_weight": 0.08,
+      "depth_weight": 0.01,
+      "recall_at_1": 0.8590947907771136,
+      "single_id_top1_accuracy": 0.8783068783068783
+    },
+    {
+      "training_weight": 1.0,
+      "lexical_weight": 0.1,
+      "depth_weight": 0.0,
+      "recall_at_1": 0.8616567036720751,
+      "single_id_top1_accuracy": 0.8809523809523809
+    },
+    {
+      "training_weight": 1.0,
+      "lexical_weight": 0.1,
+      "depth_weight": 0.001,
+      "recall_at_1": 0.8616567036720751,
+      "single_id_top1_accuracy": 0.8809523809523809
+    },
+    {
+      "training_weight": 1.0,
+      "lexical_weight": 0.1,
+      "depth_weight": 0.002,
+      "recall_at_1": 0.8616567036720751,
+      "single_id_top1_accuracy": 0.8809523809523809
+    },
+    {
+      "training_weight": 1.0,
+      "lexical_weight": 0.1,
+      "depth_weight": 0.005,
+      "recall_at_1": 0.860802732707088,
+      "single_id_top1_accuracy": 0.8791887125220459
+    },
+    {
+      "training_weight": 1.0,
+      "lexical_weight": 0.1,
+      "depth_weight": 0.01,
+      "recall_at_1": 0.860802732707088,
+      "single_id_top1_accuracy": 0.8800705467372134
+    },
+    {
+      "training_weight": 1.0,
+      "lexical_weight": 0.15,
+      "depth_weight": 0.0,
+      "recall_at_1": 0.860802732707088,
+      "single_id_top1_accuracy": 0.8791887125220459
+    },
+    {
+      "training_weight": 1.0,
+      "lexical_weight": 0.15,
+      "depth_weight": 0.001,
+      "recall_at_1": 0.860802732707088,
+      "single_id_top1_accuracy": 0.8791887125220459
+    },
+    {
+      "training_weight": 1.0,
+      "lexical_weight": 0.15,
+      "depth_weight": 0.002,
+      "recall_at_1": 0.8616567036720751,
+      "single_id_top1_accuracy": 0.8800705467372134
+    },
+    {
+      "training_weight": 1.0,
+      "lexical_weight": 0.15,
+      "depth_weight": 0.005,
+      "recall_at_1": 0.8616567036720751,
+      "single_id_top1_accuracy": 0.8791887125220459
+    },
+    {
+      "training_weight": 1.0,
+      "lexical_weight": 0.15,
+      "depth_weight": 0.01,
+      "recall_at_1": 0.8599487617421008,
+      "single_id_top1_accuracy": 0.8774250440917107
+    },
+    {
+      "training_weight": 1.05,
+      "lexical_weight": 0.0,
+      "depth_weight": 0.0,
+      "recall_at_1": 0.8531169940222032,
+      "single_id_top1_accuracy": 0.8712522045855379
+    },
+    {
+      "training_weight": 1.05,
+      "lexical_weight": 0.0,
+      "depth_weight": 0.001,
+      "recall_at_1": 0.8420153714773698,
+      "single_id_top1_accuracy": 0.8597883597883598
+    },
+    {
+      "training_weight": 1.05,
+      "lexical_weight": 0.0,
+      "depth_weight": 0.002,
+      "recall_at_1": 0.842869342442357,
+      "single_id_top1_accuracy": 0.8606701940035273
+    },
+    {
+      "training_weight": 1.05,
+      "lexical_weight": 0.0,
+      "depth_weight": 0.005,
+      "recall_at_1": 0.8479931682322801,
+      "single_id_top1_accuracy": 0.8659611992945326
+    },
+    {
+      "training_weight": 1.05,
+      "lexical_weight": 0.0,
+      "depth_weight": 0.01,
+      "recall_at_1": 0.8471391972672929,
+      "single_id_top1_accuracy": 0.8659611992945326
+    },
+    {
+      "training_weight": 1.05,
+      "lexical_weight": 0.02,
+      "depth_weight": 0.0,
+      "recall_at_1": 0.856532877882152,
+      "single_id_top1_accuracy": 0.8756613756613757
+    },
+    {
+      "training_weight": 1.05,
+      "lexical_weight": 0.02,
+      "depth_weight": 0.001,
+      "recall_at_1": 0.856532877882152,
+      "single_id_top1_accuracy": 0.8747795414462081
+    },
+    {
+      "training_weight": 1.05,
+      "lexical_weight": 0.02,
+      "depth_weight": 0.002,
+      "recall_at_1": 0.8599487617421008,
+      "single_id_top1_accuracy": 0.8783068783068783
+    },
+    {
+      "training_weight": 1.05,
+      "lexical_weight": 0.02,
+      "depth_weight": 0.005,
+      "recall_at_1": 0.8625106746370623,
+      "single_id_top1_accuracy": 0.8809523809523809
+    },
+    {
+      "training_weight": 1.05,
+      "lexical_weight": 0.02,
+      "depth_weight": 0.01,
+      "recall_at_1": 0.8539709649871904,
+      "single_id_top1_accuracy": 0.8721340388007055
+    },
+    {
+      "training_weight": 1.05,
+      "lexical_weight": 0.05,
+      "depth_weight": 0.0,
+      "recall_at_1": 0.8616567036720751,
+      "single_id_top1_accuracy": 0.8809523809523809
+    },
+    {
+      "training_weight": 1.05,
+      "lexical_weight": 0.05,
+      "depth_weight": 0.001,
+      "recall_at_1": 0.8616567036720751,
+      "single_id_top1_accuracy": 0.8809523809523809
+    },
+    {
+      "training_weight": 1.05,
+      "lexical_weight": 0.05,
+      "depth_weight": 0.002,
+      "recall_at_1": 0.8633646456020495,
+      "single_id_top1_accuracy": 0.8818342151675485
+    },
+    {
+      "training_weight": 1.05,
+      "lexical_weight": 0.05,
+      "depth_weight": 0.005,
+      "recall_at_1": 0.8676345004269855,
+      "single_id_top1_accuracy": 0.8862433862433863
+    },
+    {
+      "training_weight": 1.05,
+      "lexical_weight": 0.05,
+      "depth_weight": 0.01,
+      "recall_at_1": 0.8667805294619982,
+      "single_id_top1_accuracy": 0.8853615520282186
+    },
+    {
+      "training_weight": 1.05,
+      "lexical_weight": 0.08,
+      "depth_weight": 0.0,
+      "recall_at_1": 0.8633646456020495,
+      "single_id_top1_accuracy": 0.8827160493827161
+    },
+    {
+      "training_weight": 1.05,
+      "lexical_weight": 0.08,
+      "depth_weight": 0.001,
+      "recall_at_1": 0.8625106746370623,
+      "single_id_top1_accuracy": 0.8818342151675485
+    },
+    {
+      "training_weight": 1.05,
+      "lexical_weight": 0.08,
+      "depth_weight": 0.002,
+      "recall_at_1": 0.8650725875320239,
+      "single_id_top1_accuracy": 0.8835978835978836
+    },
+    {
+      "training_weight": 1.05,
+      "lexical_weight": 0.08,
+      "depth_weight": 0.005,
+      "recall_at_1": 0.8667805294619982,
+      "single_id_top1_accuracy": 0.8853615520282186
+    },
+    {
+      "training_weight": 1.05,
+      "lexical_weight": 0.08,
+      "depth_weight": 0.01,
+      "recall_at_1": 0.8684884713919727,
+      "single_id_top1_accuracy": 0.8871252204585538
+    },
+    {
+      "training_weight": 1.05,
+      "lexical_weight": 0.1,
+      "depth_weight": 0.0,
+      "recall_at_1": 0.8667805294619982,
+      "single_id_top1_accuracy": 0.8862433862433863
+    },
+    {
+      "training_weight": 1.05,
+      "lexical_weight": 0.1,
+      "depth_weight": 0.001,
+      "recall_at_1": 0.8659265584970111,
+      "single_id_top1_accuracy": 0.8853615520282186
+    },
+    {
+      "training_weight": 1.05,
+      "lexical_weight": 0.1,
+      "depth_weight": 0.002,
+      "recall_at_1": 0.8659265584970111,
+      "single_id_top1_accuracy": 0.8853615520282186
+    },
+    {
+      "training_weight": 1.05,
+      "lexical_weight": 0.1,
+      "depth_weight": 0.005,
+      "recall_at_1": 0.8684884713919727,
+      "single_id_top1_accuracy": 0.8871252204585538
+    },
+    {
+      "training_weight": 1.05,
+      "lexical_weight": 0.1,
+      "depth_weight": 0.01,
+      "recall_at_1": 0.8701964133219471,
+      "single_id_top1_accuracy": 0.8888888888888888
+    },
+    {
+      "training_weight": 1.05,
+      "lexical_weight": 0.15,
+      "depth_weight": 0.0,
+      "recall_at_1": 0.8693424423569599,
+      "single_id_top1_accuracy": 0.8880070546737213
+    },
+    {
+      "training_weight": 1.05,
+      "lexical_weight": 0.15,
+      "depth_weight": 0.001,
+      "recall_at_1": 0.8684884713919727,
+      "single_id_top1_accuracy": 0.8871252204585538
+    },
+    {
+      "training_weight": 1.05,
+      "lexical_weight": 0.15,
+      "depth_weight": 0.002,
+      "recall_at_1": 0.8693424423569599,
+      "single_id_top1_accuracy": 0.8880070546737213
+    },
+    {
+      "training_weight": 1.05,
+      "lexical_weight": 0.15,
+      "depth_weight": 0.005,
+      "recall_at_1": 0.8693424423569599,
+      "single_id_top1_accuracy": 0.8871252204585538
+    },
+    {
+      "training_weight": 1.05,
+      "lexical_weight": 0.15,
+      "depth_weight": 0.01,
+      "recall_at_1": 0.8684884713919727,
+      "single_id_top1_accuracy": 0.8862433862433863
+    },
+    {
+      "training_weight": 1.1,
+      "lexical_weight": 0.0,
+      "depth_weight": 0.0,
+      "recall_at_1": 0.8462852263023057,
+      "single_id_top1_accuracy": 0.8641975308641975
+    },
+    {
+      "training_weight": 1.1,
+      "lexical_weight": 0.0,
+      "depth_weight": 0.001,
+      "recall_at_1": 0.8368915456874466,
+      "single_id_top1_accuracy": 0.8544973544973545
+    },
+    {
+      "training_weight": 1.1,
+      "lexical_weight": 0.0,
+      "depth_weight": 0.002,
+      "recall_at_1": 0.8377455166524338,
+      "single_id_top1_accuracy": 0.855379188712522
+    },
+    {
+      "training_weight": 1.1,
+      "lexical_weight": 0.0,
+      "depth_weight": 0.005,
+      "recall_at_1": 0.8394534585824082,
+      "single_id_top1_accuracy": 0.8571428571428571
+    },
+    {
+      "training_weight": 1.1,
+      "lexical_weight": 0.0,
+      "depth_weight": 0.01,
+      "recall_at_1": 0.8360375747224594,
+      "single_id_top1_accuracy": 0.8544973544973545
+    },
+    {
+      "training_weight": 1.1,
+      "lexical_weight": 0.02,
+      "depth_weight": 0.0,
+      "recall_at_1": 0.8497011101622545,
+      "single_id_top1_accuracy": 0.8686067019400353
+    },
+    {
+      "training_weight": 1.1,
+      "lexical_weight": 0.02,
+      "depth_weight": 0.001,
+      "recall_at_1": 0.852263023057216,
+      "single_id_top1_accuracy": 0.8703703703703703
+    },
+    {
+      "training_weight": 1.1,
+      "lexical_weight": 0.02,
+      "depth_weight": 0.002,
+      "recall_at_1": 0.8531169940222032,
+      "single_id_top1_accuracy": 0.8712522045855379
+    },
+    {
+      "training_weight": 1.1,
+      "lexical_weight": 0.02,
+      "depth_weight": 0.005,
+      "recall_at_1": 0.8548249359521777,
+      "single_id_top1_accuracy": 0.873015873015873
+    },
+    {
+      "training_weight": 1.1,
+      "lexical_weight": 0.02,
+      "depth_weight": 0.01,
+      "recall_at_1": 0.8454312553373186,
+      "single_id_top1_accuracy": 0.86331569664903
+    },
+    {
+      "training_weight": 1.1,
+      "lexical_weight": 0.05,
+      "depth_weight": 0.0,
+      "recall_at_1": 0.8548249359521777,
+      "single_id_top1_accuracy": 0.8738977072310405
+    },
+    {
+      "training_weight": 1.1,
+      "lexical_weight": 0.05,
+      "depth_weight": 0.001,
+      "recall_at_1": 0.8556789069171649,
+      "single_id_top1_accuracy": 0.8747795414462081
+    },
+    {
+      "training_weight": 1.1,
+      "lexical_weight": 0.05,
+      "depth_weight": 0.002,
+      "recall_at_1": 0.8582408198121264,
+      "single_id_top1_accuracy": 0.8765432098765432
+    },
+    {
+      "training_weight": 1.1,
+      "lexical_weight": 0.05,
+      "depth_weight": 0.005,
+      "recall_at_1": 0.860802732707088,
+      "single_id_top1_accuracy": 0.8791887125220459
+    },
+    {
+      "training_weight": 1.1,
+      "lexical_weight": 0.05,
+      "depth_weight": 0.01,
+      "recall_at_1": 0.8590947907771136,
+      "single_id_top1_accuracy": 0.8774250440917107
+    },
+    {
+      "training_weight": 1.1,
+      "lexical_weight": 0.08,
+      "depth_weight": 0.0,
+      "recall_at_1": 0.8573868488471392,
+      "single_id_top1_accuracy": 0.8765432098765432
+    },
+    {
+      "training_weight": 1.1,
+      "lexical_weight": 0.08,
+      "depth_weight": 0.001,
+      "recall_at_1": 0.8582408198121264,
+      "single_id_top1_accuracy": 0.8774250440917107
+    },
+    {
+      "training_weight": 1.1,
+      "lexical_weight": 0.08,
+      "depth_weight": 0.002,
+      "recall_at_1": 0.860802732707088,
+      "single_id_top1_accuracy": 0.8791887125220459
+    },
+    {
+      "training_weight": 1.1,
+      "lexical_weight": 0.08,
+      "depth_weight": 0.005,
+      "recall_at_1": 0.860802732707088,
+      "single_id_top1_accuracy": 0.8791887125220459
+    },
+    {
+      "training_weight": 1.1,
+      "lexical_weight": 0.08,
+      "depth_weight": 0.01,
+      "recall_at_1": 0.860802732707088,
+      "single_id_top1_accuracy": 0.8791887125220459
+    },
+    {
+      "training_weight": 1.1,
+      "lexical_weight": 0.1,
+      "depth_weight": 0.0,
+      "recall_at_1": 0.860802732707088,
+      "single_id_top1_accuracy": 0.8800705467372134
+    },
+    {
+      "training_weight": 1.1,
+      "lexical_weight": 0.1,
+      "depth_weight": 0.001,
+      "recall_at_1": 0.8616567036720751,
+      "single_id_top1_accuracy": 0.8809523809523809
+    },
+    {
+      "training_weight": 1.1,
+      "lexical_weight": 0.1,
+      "depth_weight": 0.002,
+      "recall_at_1": 0.8616567036720751,
+      "single_id_top1_accuracy": 0.8809523809523809
+    },
+    {
+      "training_weight": 1.1,
+      "lexical_weight": 0.1,
+      "depth_weight": 0.005,
+      "recall_at_1": 0.8633646456020495,
+      "single_id_top1_accuracy": 0.8818342151675485
+    },
+    {
+      "training_weight": 1.1,
+      "lexical_weight": 0.1,
+      "depth_weight": 0.01,
+      "recall_at_1": 0.8633646456020495,
+      "single_id_top1_accuracy": 0.8818342151675485
+    },
+    {
+      "training_weight": 1.1,
+      "lexical_weight": 0.15,
+      "depth_weight": 0.0,
+      "recall_at_1": 0.8642186165670367,
+      "single_id_top1_accuracy": 0.8827160493827161
+    },
+    {
+      "training_weight": 1.1,
+      "lexical_weight": 0.15,
+      "depth_weight": 0.001,
+      "recall_at_1": 0.8650725875320239,
+      "single_id_top1_accuracy": 0.8835978835978836
+    },
+    {
+      "training_weight": 1.1,
+      "lexical_weight": 0.15,
+      "depth_weight": 0.002,
+      "recall_at_1": 0.8659265584970111,
+      "single_id_top1_accuracy": 0.8844797178130511
+    },
+    {
+      "training_weight": 1.1,
+      "lexical_weight": 0.15,
+      "depth_weight": 0.005,
+      "recall_at_1": 0.8650725875320239,
+      "single_id_top1_accuracy": 0.8827160493827161
+    },
+    {
+      "training_weight": 1.1,
+      "lexical_weight": 0.15,
+      "depth_weight": 0.01,
+      "recall_at_1": 0.8633646456020495,
+      "single_id_top1_accuracy": 0.8809523809523809
+    }
+  ]
+}

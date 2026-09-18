@@ -1,0 +1,1795 @@
+{
+  "experiment": "sapbert_gold_mention_retrieval",
+  "entities": 1150,
+  "hpo_units": 1171,
+  "recall_at_1": 0.8437233134073442,
+  "recall_at_5": 0.9436379163108455,
+  "recall_at_10": 0.9615713065755764,
+  "mean_reciprocal_rank_at_10": 0.8868908679327129,
+  "single_id_top1_accuracy": 0.8624338624338624,
+  "single_id_entities": 1134,
+  "top5_miss_examples": [
+    {
+      "text": "hypoautofluorescent halo",
+      "gold": [
+        "HP:0030632"
+      ],
+      "top5": [
+        {
+          "identifier": "HP:0025159",
+          "surface": "Hypoautofluorescent retinal lesion",
+          "score": 0.7745416164398193
+        },
+        {
+          "identifier": "HP:6001267",
+          "surface": "Halo vision",
+          "score": 0.7513055205345154
+        },
+        {
+          "identifier": "HP:0034272",
+          "surface": "Perifoveal hypoautofluorescence",
+          "score": 0.7394073605537415
+        },
+        {
+          "identifier": "HP:0032971",
+          "surface": "Computed tomographic halo sign",
+          "score": 0.7297024130821228
+        },
+        {
+          "identifier": "HP:0025158",
+          "surface": "Hyperautofluorescent retinal lesion",
+          "score": 0.6880290508270264
+        }
+      ]
+    },
+    {
+      "text": "PTGC",
+      "gold": [
+        "HP:0002849"
+      ],
+      "top5": [
+        {
+          "identifier": "HP:0001669",
+          "surface": "TGA",
+          "score": 0.5874442458152771
+        },
+        {
+          "identifier": "HP:0011540",
+          "surface": "ccTGV",
+          "score": 0.5765135288238525
+        },
+        {
+          "identifier": "HP:0033769",
+          "surface": "Gastric polyposis",
+          "score": 0.5734198093414307
+        },
+        {
+          "identifier": "HP:6001261",
+          "surface": "Gallbladder polyposis",
+          "score": 0.5721230506896973
+        },
+        {
+          "identifier": "HP:0012109",
+          "surface": "Primary angle closure glaucoma",
+          "score": 0.561809241771698
+        }
+      ]
+    },
+    {
+      "text": "T-LBL",
+      "gold": [
+        "HP:0012190"
+      ],
+      "top5": [
+        {
+          "identifier": "HP:6000036",
+          "surface": "Long telomere length",
+          "score": 0.5547151565551758
+        },
+        {
+          "identifier": "HP:0011540",
+          "surface": "L-TGA",
+          "score": 0.5502685904502869
+        },
+        {
+          "identifier": "HP:0008421",
+          "surface": "Tall lumbar vertebral bodies",
+          "score": 0.5411460399627686
+        },
+        {
+          "identifier": "HP:0032606",
+          "surface": "Renal tubular epithelial lipofuscin",
+          "score": 0.5358355641365051
+        },
+        {
+          "identifier": "HP:0003419",
+          "surface": "Lumbago",
+          "score": 0.530085563659668
+        }
+      ]
+    },
+    {
+      "text": "NDDs",
+      "gold": [
+        "HP:0012759"
+      ],
+      "top5": [
+        {
+          "identifier": "HP:0012758",
+          "surface": "NDD",
+          "score": 0.8493466973304749
+        },
+        {
+          "identifier": "HP:0025650",
+          "surface": "SDNS",
+          "score": 0.7208672761917114
+        },
+        {
+          "identifier": "HP:0045005",
+          "surface": "NTD",
+          "score": 0.6029558181762695
+        },
+        {
+          "identifier": "HP:0011753",
+          "surface": "Neurohypophysis dysplasia",
+          "score": 0.591286301612854
+        },
+        {
+          "identifier": "HP:0001263",
+          "surface": "GDD",
+          "score": 0.5901459455490112
+        }
+      ]
+    },
+    {
+      "text": "EEG system",
+      "gold": [
+        "HP:0002353"
+      ],
+      "top5": [
+        {
+          "identifier": "HP:0011176",
+          "surface": "EEG with constitutional variants",
+          "score": 0.6356503963470459
+        },
+        {
+          "identifier": "HP:0011194",
+          "surface": "EEG with series of focal spikes",
+          "score": 0.6224060654640198
+        },
+        {
+          "identifier": "HP:0011202",
+          "surface": "EEG with diffuse acceleration",
+          "score": 0.5914837718009949
+        },
+        {
+          "identifier": "HP:0012000",
+          "surface": "EEG with generalised spikes",
+          "score": 0.5896326303482056
+        },
+        {
+          "identifier": "HP:0011198",
+          "surface": "EEG with generalised epileptiform discharges",
+          "score": 0.5763500928878784
+        }
+      ]
+    },
+    {
+      "text": "mild down-slanting eyelids",
+      "gold": [
+        "HP:0200006"
+      ],
+      "top5": [
+        {
+          "identifier": "HP:0000494",
+          "surface": "Downward slanting of the opening between the eyelids",
+          "score": 0.7619343996047974
+        },
+        {
+          "identifier": "HP:0007697",
+          "surface": "Short lower eyelid",
+          "score": 0.7396209836006165
+        },
+        {
+          "identifier": "HP:0000621",
+          "surface": "Inverted eyelid",
+          "score": 0.7376754283905029
+        },
+        {
+          "identifier": "HP:0430009",
+          "surface": "Short eyelid",
+          "score": 0.7332059144973755
+        },
+        {
+          "identifier": "HP:0000601",
+          "surface": "Hypotelorism",
+          "score": 0.7324605584144592
+        }
+      ]
+    },
+    {
+      "text": "vitro contracture",
+      "gold": [
+        "HP:6000149"
+      ],
+      "top5": [
+        {
+          "identifier": "HP:0034392",
+          "surface": "Contracture",
+          "score": 0.8532412648200989
+        },
+        {
+          "identifier": "HP:0002803",
+          "surface": "Congenital contracture",
+          "score": 0.7990299463272095
+        },
+        {
+          "identifier": "HP:0001371",
+          "surface": "Flexion contracture",
+          "score": 0.7677417993545532
+        },
+        {
+          "identifier": "HP:0003121",
+          "surface": "Limb joint contracture",
+          "score": 0.748298168182373
+        },
+        {
+          "identifier": "HP:0005679",
+          "surface": "Dupuytren contracture",
+          "score": 0.7290313243865967
+        }
+      ]
+    },
+    {
+      "text": "MH",
+      "gold": [
+        "HP:0002047"
+      ],
+      "top5": [
+        {
+          "identifier": "HP:0001658",
+          "surface": "MI",
+          "score": 0.6503275036811829
+        },
+        {
+          "identifier": "HP:0001639",
+          "surface": "HCM",
+          "score": 0.6033299565315247
+        },
+        {
+          "identifier": "HP:0031152",
+          "surface": "FTMH",
+          "score": 0.5936128497123718
+        },
+        {
+          "identifier": "HP:0100754",
+          "surface": "Manic",
+          "score": 0.5897564888000488
+        },
+        {
+          "identifier": "HP:0008231",
+          "surface": "Macronodular adrenal hyperplasia",
+          "score": 0.5826495885848999
+        }
+      ]
+    },
+    {
+      "text": "MH",
+      "gold": [
+        "HP:0002047"
+      ],
+      "top5": [
+        {
+          "identifier": "HP:0001658",
+          "surface": "MI",
+          "score": 0.6503275036811829
+        },
+        {
+          "identifier": "HP:0001639",
+          "surface": "HCM",
+          "score": 0.6033299565315247
+        },
+        {
+          "identifier": "HP:0031152",
+          "surface": "FTMH",
+          "score": 0.5936128497123718
+        },
+        {
+          "identifier": "HP:0100754",
+          "surface": "Manic",
+          "score": 0.5897564888000488
+        },
+        {
+          "identifier": "HP:0008231",
+          "surface": "Macronodular adrenal hyperplasia",
+          "score": 0.5826495885848999
+        }
+      ]
+    },
+    {
+      "text": "vitro contracture",
+      "gold": [
+        "HP:6000149"
+      ],
+      "top5": [
+        {
+          "identifier": "HP:0034392",
+          "surface": "Contracture",
+          "score": 0.8532412648200989
+        },
+        {
+          "identifier": "HP:0002803",
+          "surface": "Congenital contracture",
+          "score": 0.7990299463272095
+        },
+        {
+          "identifier": "HP:0001371",
+          "surface": "Flexion contracture",
+          "score": 0.7677417993545532
+        },
+        {
+          "identifier": "HP:0003121",
+          "surface": "Limb joint contracture",
+          "score": 0.748298168182373
+        },
+        {
+          "identifier": "HP:0005679",
+          "surface": "Dupuytren contracture",
+          "score": 0.7290313243865967
+        }
+      ]
+    },
+    {
+      "text": "vitro contracture",
+      "gold": [
+        "HP:6000149"
+      ],
+      "top5": [
+        {
+          "identifier": "HP:0034392",
+          "surface": "Contracture",
+          "score": 0.8532412648200989
+        },
+        {
+          "identifier": "HP:0002803",
+          "surface": "Congenital contracture",
+          "score": 0.7990299463272095
+        },
+        {
+          "identifier": "HP:0001371",
+          "surface": "Flexion contracture",
+          "score": 0.7677417993545532
+        },
+        {
+          "identifier": "HP:0003121",
+          "surface": "Limb joint contracture",
+          "score": 0.748298168182373
+        },
+        {
+          "identifier": "HP:0005679",
+          "surface": "Dupuytren contracture",
+          "score": 0.7290313243865967
+        }
+      ]
+    },
+    {
+      "text": "exertional myalgia",
+      "gold": [
+        "HP:0002875"
+      ],
+      "top5": [
+        {
+          "identifier": "HP:0003738",
+          "surface": "Exercise-induced myalgia",
+          "score": 0.8429127335548401
+        },
+        {
+          "identifier": "HP:0003326",
+          "surface": "Myalgias",
+          "score": 0.8292847275733948
+        },
+        {
+          "identifier": "HP:0003710",
+          "surface": "Muscle cramps with exertion",
+          "score": 0.8027340173721313
+        },
+        {
+          "identifier": "HP:0003750",
+          "surface": "Muscle fatigue",
+          "score": 0.7491140961647034
+        },
+        {
+          "identifier": "HP:0009020",
+          "surface": "Exercise-induced muscle fatigue",
+          "score": 0.7297763228416443
+        }
+      ]
+    },
+    {
+      "text": "mild myopathy",
+      "gold": [
+        "HP:0025573"
+      ],
+      "top5": [
+        {
+          "identifier": "HP:0003198",
+          "surface": "Myopathy",
+          "score": 0.777163565158844
+        },
+        {
+          "identifier": "HP:0003756",
+          "surface": "Skeletal myopathy",
+          "score": 0.7459723949432373
+        },
+        {
+          "identifier": "HP:0003715",
+          "surface": "Myofibrillar myopathy",
+          "score": 0.7365473508834839
+        },
+        {
+          "identifier": "HP:0003797",
+          "surface": "Limb-girdle myopathy",
+          "score": 0.7231751680374146
+        },
+        {
+          "identifier": "HP:0003789",
+          "surface": "Minicore myopathy",
+          "score": 0.7226126194000244
+        }
+      ]
+    },
+    {
+      "text": "MH",
+      "gold": [
+        "HP:0002047"
+      ],
+      "top5": [
+        {
+          "identifier": "HP:0001658",
+          "surface": "MI",
+          "score": 0.6503275036811829
+        },
+        {
+          "identifier": "HP:0001639",
+          "surface": "HCM",
+          "score": 0.6033299565315247
+        },
+        {
+          "identifier": "HP:0031152",
+          "surface": "FTMH",
+          "score": 0.5936128497123718
+        },
+        {
+          "identifier": "HP:0100754",
+          "surface": "Manic",
+          "score": 0.5897564888000488
+        },
+        {
+          "identifier": "HP:0008231",
+          "surface": "Macronodular adrenal hyperplasia",
+          "score": 0.5826495885848999
+        }
+      ]
+    },
+    {
+      "text": "SP",
+      "gold": [
+        "HP:0002108"
+      ],
+      "top5": [
+        {
+          "identifier": "HP:0002389",
+          "surface": "Cavum septum pellucidum",
+          "score": 0.5624512434005737
+        },
+        {
+          "identifier": "HP:0100021",
+          "surface": "CP",
+          "score": 0.5617841482162476
+        },
+        {
+          "identifier": "HP:0000511",
+          "surface": "VSGP",
+          "score": 0.5364871025085449
+        },
+        {
+          "identifier": "HP:0033611",
+          "surface": "Part-solid pulmonary nodule",
+          "score": 0.5307188630104065
+        },
+        {
+          "identifier": "HP:5200420",
+          "surface": "Psychose passionelle",
+          "score": 0.5249610543251038
+        }
+      ]
+    },
+    {
+      "text": "never slept through the night",
+      "gold": [
+        "HP:0002360"
+      ],
+      "top5": [
+        {
+          "identifier": "HP:5200292",
+          "surface": "Non-refreshing sleep",
+          "score": 0.7465476393699646
+        },
+        {
+          "identifier": "HP:0031355",
+          "surface": "Waking up several times during the night",
+          "score": 0.7439858317375183
+        },
+        {
+          "identifier": "HP:0025298",
+          "surface": "Long nighttime sleep",
+          "score": 0.7393250465393066
+        },
+        {
+          "identifier": "HP:0025199",
+          "surface": "Broken sleep",
+          "score": 0.7234230637550354
+        },
+        {
+          "identifier": "HP:0025235",
+          "surface": "NREM parasomnia",
+          "score": 0.6887141466140747
+        }
+      ]
+    },
+    {
+      "text": "SP",
+      "gold": [
+        "HP:0002108"
+      ],
+      "top5": [
+        {
+          "identifier": "HP:0002389",
+          "surface": "Cavum septum pellucidum",
+          "score": 0.5624512434005737
+        },
+        {
+          "identifier": "HP:0100021",
+          "surface": "CP",
+          "score": 0.5617841482162476
+        },
+        {
+          "identifier": "HP:0000511",
+          "surface": "VSGP",
+          "score": 0.5364871025085449
+        },
+        {
+          "identifier": "HP:0033611",
+          "surface": "Part-solid pulmonary nodule",
+          "score": 0.5307188630104065
+        },
+        {
+          "identifier": "HP:5200420",
+          "surface": "Psychose passionelle",
+          "score": 0.5249610543251038
+        }
+      ]
+    },
+    {
+      "text": "SP",
+      "gold": [
+        "HP:0002108"
+      ],
+      "top5": [
+        {
+          "identifier": "HP:0002389",
+          "surface": "Cavum septum pellucidum",
+          "score": 0.5624512434005737
+        },
+        {
+          "identifier": "HP:0100021",
+          "surface": "CP",
+          "score": 0.5617841482162476
+        },
+        {
+          "identifier": "HP:0000511",
+          "surface": "VSGP",
+          "score": 0.5364871025085449
+        },
+        {
+          "identifier": "HP:0033611",
+          "surface": "Part-solid pulmonary nodule",
+          "score": 0.5307188630104065
+        },
+        {
+          "identifier": "HP:5200420",
+          "surface": "Psychose passionelle",
+          "score": 0.5249610543251038
+        }
+      ]
+    },
+    {
+      "text": "SP",
+      "gold": [
+        "HP:0002108"
+      ],
+      "top5": [
+        {
+          "identifier": "HP:0002389",
+          "surface": "Cavum septum pellucidum",
+          "score": 0.5624512434005737
+        },
+        {
+          "identifier": "HP:0100021",
+          "surface": "CP",
+          "score": 0.5617841482162476
+        },
+        {
+          "identifier": "HP:0000511",
+          "surface": "VSGP",
+          "score": 0.5364871025085449
+        },
+        {
+          "identifier": "HP:0033611",
+          "surface": "Part-solid pulmonary nodule",
+          "score": 0.5307188630104065
+        },
+        {
+          "identifier": "HP:5200420",
+          "surface": "Psychose passionelle",
+          "score": 0.5249610543251038
+        }
+      ]
+    },
+    {
+      "text": "SP",
+      "gold": [
+        "HP:0002108"
+      ],
+      "top5": [
+        {
+          "identifier": "HP:0002389",
+          "surface": "Cavum septum pellucidum",
+          "score": 0.5624512434005737
+        },
+        {
+          "identifier": "HP:0100021",
+          "surface": "CP",
+          "score": 0.5617841482162476
+        },
+        {
+          "identifier": "HP:0000511",
+          "surface": "VSGP",
+          "score": 0.5364871025085449
+        },
+        {
+          "identifier": "HP:0033611",
+          "surface": "Part-solid pulmonary nodule",
+          "score": 0.5307188630104065
+        },
+        {
+          "identifier": "HP:5200420",
+          "surface": "Psychose passionelle",
+          "score": 0.5249610543251038
+        }
+      ]
+    },
+    {
+      "text": "SP",
+      "gold": [
+        "HP:0002108"
+      ],
+      "top5": [
+        {
+          "identifier": "HP:0002389",
+          "surface": "Cavum septum pellucidum",
+          "score": 0.5624512434005737
+        },
+        {
+          "identifier": "HP:0100021",
+          "surface": "CP",
+          "score": 0.5617841482162476
+        },
+        {
+          "identifier": "HP:0000511",
+          "surface": "VSGP",
+          "score": 0.5364871025085449
+        },
+        {
+          "identifier": "HP:0033611",
+          "surface": "Part-solid pulmonary nodule",
+          "score": 0.5307188630104065
+        },
+        {
+          "identifier": "HP:5200420",
+          "surface": "Psychose passionelle",
+          "score": 0.5249610543251038
+        }
+      ]
+    },
+    {
+      "text": "SP",
+      "gold": [
+        "HP:0002108"
+      ],
+      "top5": [
+        {
+          "identifier": "HP:0002389",
+          "surface": "Cavum septum pellucidum",
+          "score": 0.5624512434005737
+        },
+        {
+          "identifier": "HP:0100021",
+          "surface": "CP",
+          "score": 0.5617841482162476
+        },
+        {
+          "identifier": "HP:0000511",
+          "surface": "VSGP",
+          "score": 0.5364871025085449
+        },
+        {
+          "identifier": "HP:0033611",
+          "surface": "Part-solid pulmonary nodule",
+          "score": 0.5307188630104065
+        },
+        {
+          "identifier": "HP:5200420",
+          "surface": "Psychose passionelle",
+          "score": 0.5249610543251038
+        }
+      ]
+    },
+    {
+      "text": "juvenile periodontitis",
+      "gold": [
+        "HP:0005681"
+      ],
+      "top5": [
+        {
+          "identifier": "HP:0000166",
+          "surface": "Prepubertal periodontitis",
+          "score": 0.8635468482971191
+        },
+        {
+          "identifier": "HP:0020341",
+          "surface": "Unusual periodontitis",
+          "score": 0.8408417105674744
+        },
+        {
+          "identifier": "HP:0011058",
+          "surface": "Generalized periodontitis",
+          "score": 0.7478458285331726
+        },
+        {
+          "identifier": "HP:0011059",
+          "surface": "Localised periodontitis",
+          "score": 0.74464350938797
+        },
+        {
+          "identifier": "HP:0000704",
+          "surface": "Periodontitis",
+          "score": 0.71323561668396
+        }
+      ]
+    },
+    {
+      "text": "malformed and decaying teeth",
+      "gold": [
+        "HP:0000670"
+      ],
+      "top5": [
+        {
+          "identifier": "HP:0006482",
+          "surface": "Malformed teeth",
+          "score": 0.8211607933044434
+        },
+        {
+          "identifier": "HP:0006483",
+          "surface": "Abnormal complement of teeth",
+          "score": 0.7729289531707764
+        },
+        {
+          "identifier": "HP:0010299",
+          "surface": "Abnormal dentin morphology",
+          "score": 0.7672155499458313
+        },
+        {
+          "identifier": "HP:0006481",
+          "surface": "Abnormality of milk teeth",
+          "score": 0.7584596276283264
+        },
+        {
+          "identifier": "HP:0000164",
+          "surface": "Abnormal teeth",
+          "score": 0.7486038208007812
+        }
+      ]
+    },
+    {
+      "text": "ectopialentis",
+      "gold": [
+        "HP:0001083"
+      ],
+      "top5": [
+        {
+          "identifier": "HP:0010452",
+          "surface": "Ectopia of the spleen",
+          "score": 0.676459550857544
+        },
+        {
+          "identifier": "HP:0001746",
+          "surface": "Asplenia",
+          "score": 0.6713569760322571
+        },
+        {
+          "identifier": "HP:0010517",
+          "surface": "Ectopic thymus tissue",
+          "score": 0.6593673229217529
+        },
+        {
+          "identifier": "HP:0030722",
+          "surface": "Ectopic liver",
+          "score": 0.6428120732307434
+        },
+        {
+          "identifier": "HP:0031086",
+          "surface": "Ectopic ovary",
+          "score": 0.6105867624282837
+        }
+      ]
+    },
+    {
+      "text": "vascular thrombosis and ischemia",
+      "gold": [
+        "HP:0001977"
+      ],
+      "top5": [
+        {
+          "identifier": "HP:0004420",
+          "surface": "Arterial thrombosis",
+          "score": 0.7669263482093811
+        },
+        {
+          "identifier": "HP:0001907",
+          "surface": "Thromboembolic disease",
+          "score": 0.7532992959022522
+        },
+        {
+          "identifier": "HP:0001727",
+          "surface": "Thromboembolic stroke",
+          "score": 0.7050030827522278
+        },
+        {
+          "identifier": "HP:0002641",
+          "surface": "Peripheral thrombosis",
+          "score": 0.6924859881401062
+        },
+        {
+          "identifier": "HP:0002326",
+          "surface": "Transient ischemic attacks",
+          "score": 0.6898537278175354
+        }
+      ]
+    },
+    {
+      "text": "convulsions",
+      "gold": [
+        "HP:0011097"
+      ],
+      "top5": [
+        {
+          "identifier": "HP:0001250",
+          "surface": "Seizures",
+          "score": 0.8967553377151489
+        },
+        {
+          "identifier": "HP:0002069",
+          "surface": "Generalised convulsion",
+          "score": 0.8214818239212036
+        },
+        {
+          "identifier": "HP:0002373",
+          "surface": "Febrile convulsion",
+          "score": 0.7846508622169495
+        },
+        {
+          "identifier": "HP:0033259",
+          "surface": "Non-motor seizure",
+          "score": 0.7550953030586243
+        },
+        {
+          "identifier": "HP:0033052",
+          "surface": "Functional seizure",
+          "score": 0.7522964477539062
+        }
+      ]
+    },
+    {
+      "text": "ectopialentis",
+      "gold": [
+        "HP:0001083"
+      ],
+      "top5": [
+        {
+          "identifier": "HP:0010452",
+          "surface": "Ectopia of the spleen",
+          "score": 0.676459550857544
+        },
+        {
+          "identifier": "HP:0001746",
+          "surface": "Asplenia",
+          "score": 0.6713569760322571
+        },
+        {
+          "identifier": "HP:0010517",
+          "surface": "Ectopic thymus tissue",
+          "score": 0.6593673229217529
+        },
+        {
+          "identifier": "HP:0030722",
+          "surface": "Ectopic liver",
+          "score": 0.6428120732307434
+        },
+        {
+          "identifier": "HP:0031086",
+          "surface": "Ectopic ovary",
+          "score": 0.6105867624282837
+        }
+      ]
+    },
+    {
+      "text": "reduced vision",
+      "gold": [
+        "HP:0000545"
+      ],
+      "top5": [
+        {
+          "identifier": "HP:0000505",
+          "surface": "Poor vision",
+          "score": 0.9317529201507568
+        },
+        {
+          "identifier": "HP:0000572",
+          "surface": "Loss of vision",
+          "score": 0.9220843315124512
+        },
+        {
+          "identifier": "HP:0007663",
+          "surface": "Reduced visual acuity",
+          "score": 0.8971750736236572
+        },
+        {
+          "identifier": "HP:0000529",
+          "surface": "Loss of visual acuity",
+          "score": 0.8806968927383423
+        },
+        {
+          "identifier": "HP:0001133",
+          "surface": "Reduced peripheral vision",
+          "score": 0.8333507776260376
+        }
+      ]
+    },
+    {
+      "text": "Biocularlens dislocation",
+      "gold": [
+        "HP:0001083"
+      ],
+      "top5": [
+        {
+          "identifier": "HP:6001465",
+          "surface": "LHBT dislocation",
+          "score": 0.731785774230957
+        },
+        {
+          "identifier": "HP:0003042",
+          "surface": "Radiocapitellar dislocation",
+          "score": 0.6287103891372681
+        },
+        {
+          "identifier": "HP:0031869",
+          "surface": "Recurrent joint dislocation",
+          "score": 0.6268499493598938
+        },
+        {
+          "identifier": "HP:0012095",
+          "surface": "Multiple joint dislocation",
+          "score": 0.6227999925613403
+        },
+        {
+          "identifier": "HP:0031610",
+          "surface": "Multiple shoulder dislocation",
+          "score": 0.6002506613731384
+        }
+      ]
+    },
+    {
+      "text": "hyperglyceric aciduria",
+      "gold": [
+        "HP:0012072"
+      ],
+      "top5": [
+        {
+          "identifier": "HP:0001071",
+          "surface": "Fabry syndrome",
+          "score": 0.7290077209472656
+        },
+        {
+          "identifier": "HP:0032567",
+          "surface": "Lipiduria",
+          "score": 0.7092860341072083
+        },
+        {
+          "identifier": "HP:0003108",
+          "surface": "Hyperglycinuria",
+          "score": 0.7033104300498962
+        },
+        {
+          "identifier": "HP:0033220",
+          "surface": "2-ethylhydracylic aciduria",
+          "score": 0.6854369640350342
+        },
+        {
+          "identifier": "HP:0012023",
+          "surface": "Galactosuria",
+          "score": 0.6842375993728638
+        }
+      ]
+    },
+    {
+      "text": "poor motor coordination",
+      "gold": [
+        "HP:0002275"
+      ],
+      "top5": [
+        {
+          "identifier": "HP:0002311",
+          "surface": "Poor motor coordination",
+          "score": 1.0
+        },
+        {
+          "identifier": "HP:0007010",
+          "surface": "Poor fine motor coordination",
+          "score": 0.9395976662635803
+        },
+        {
+          "identifier": "HP:0001310",
+          "surface": "Lack of coordination of movement",
+          "score": 0.9237012267112732
+        },
+        {
+          "identifier": "HP:0007015",
+          "surface": "Poor gross motor coordination",
+          "score": 0.9040758609771729
+        },
+        {
+          "identifier": "HP:0011443",
+          "surface": "Abnormality of coordination",
+          "score": 0.8721145391464233
+        }
+      ]
+    },
+    {
+      "text": "spinal-cord volume loss",
+      "gold": [
+        "HP:0002143"
+      ],
+      "top5": [
+        {
+          "identifier": "HP:0006827",
+          "surface": "Atrophy of the spinal cord",
+          "score": 0.7857763767242432
+        },
+        {
+          "identifier": "HP:0007344",
+          "surface": "Atrophy/Degeneration involving the spinal cord",
+          "score": 0.7215988636016846
+        },
+        {
+          "identifier": "HP:0003396",
+          "surface": "Syringomyelia",
+          "score": 0.6537770628929138
+        },
+        {
+          "identifier": "HP:0007269",
+          "surface": "Spinal muscle wasting",
+          "score": 0.6467902064323425
+        },
+        {
+          "identifier": "HP:0002176",
+          "surface": "Spinal cord compression",
+          "score": 0.6441318988800049
+        }
+      ]
+    },
+    {
+      "text": "volume loss of the cerebellum",
+      "gold": [
+        "HP:0001317"
+      ],
+      "top5": [
+        {
+          "identifier": "HP:0001272",
+          "surface": "Atrophic cerebellum",
+          "score": 0.8750302195549011
+        },
+        {
+          "identifier": "HP:0001321",
+          "surface": "Small cerebellum",
+          "score": 0.8135388493537903
+        },
+        {
+          "identifier": "HP:0006855",
+          "surface": "Cerebellar vermis atrophy",
+          "score": 0.8053774833679199
+        },
+        {
+          "identifier": "HP:0007360",
+          "surface": "Atrophy/Hypoplasia of the cerebellum",
+          "score": 0.7998696565628052
+        },
+        {
+          "identifier": "HP:0030915",
+          "surface": "Oedema of the cerebellum",
+          "score": 0.7824558019638062
+        }
+      ]
+    },
+    {
+      "text": "volume loss of the cerebellum",
+      "gold": [
+        "HP:0001317"
+      ],
+      "top5": [
+        {
+          "identifier": "HP:0001272",
+          "surface": "Atrophic cerebellum",
+          "score": 0.8750302195549011
+        },
+        {
+          "identifier": "HP:0001321",
+          "surface": "Small cerebellum",
+          "score": 0.8135388493537903
+        },
+        {
+          "identifier": "HP:0006855",
+          "surface": "Cerebellar vermis atrophy",
+          "score": 0.8053774833679199
+        },
+        {
+          "identifier": "HP:0007360",
+          "surface": "Atrophy/Hypoplasia of the cerebellum",
+          "score": 0.7998696565628052
+        },
+        {
+          "identifier": "HP:0030915",
+          "surface": "Oedema of the cerebellum",
+          "score": 0.7824558019638062
+        }
+      ]
+    },
+    {
+      "text": "MR",
+      "gold": [
+        "HP:0001249"
+      ],
+      "top5": [
+        {
+          "identifier": "HP:0007922",
+          "surface": "MRNF",
+          "score": 0.640333354473114
+        },
+        {
+          "identifier": "HP:0001256",
+          "surface": "Mild and nonprogressive mental retardation",
+          "score": 0.6198185682296753
+        },
+        {
+          "identifier": "HP:0001658",
+          "surface": "MI",
+          "score": 0.5999425053596497
+        },
+        {
+          "identifier": "HP:0001263",
+          "surface": "Mental and motor retardation",
+          "score": 0.598323404788971
+        },
+        {
+          "identifier": "HP:0001653",
+          "surface": "Mitral regurgitation",
+          "score": 0.5600565671920776
+        }
+      ]
+    },
+    {
+      "text": "Rett-like MR",
+      "gold": [
+        "HP:0001249"
+      ],
+      "top5": [
+        {
+          "identifier": "HP:0034557",
+          "surface": "Rhabdoid tumor",
+          "score": 0.5673044919967651
+        },
+        {
+          "identifier": "HP:0030118",
+          "surface": "Reduced muscle fiber emerin",
+          "score": 0.5473225116729736
+        },
+        {
+          "identifier": "HP:0007335",
+          "surface": "Recurrent cerebellar and extrapyramidal encephalopathy",
+          "score": 0.547276496887207
+        },
+        {
+          "identifier": "HP:0001302",
+          "surface": "Fewer and broader ridges in brain",
+          "score": 0.5426883101463318
+        },
+        {
+          "identifier": "HP:0034767",
+          "surface": "Abnormal rete ridge morphology",
+          "score": 0.5369350910186768
+        }
+      ]
+    },
+    {
+      "text": "MR",
+      "gold": [
+        "HP:0001249"
+      ],
+      "top5": [
+        {
+          "identifier": "HP:0007922",
+          "surface": "MRNF",
+          "score": 0.640333354473114
+        },
+        {
+          "identifier": "HP:0001256",
+          "surface": "Mild and nonprogressive mental retardation",
+          "score": 0.6198185682296753
+        },
+        {
+          "identifier": "HP:0001658",
+          "surface": "MI",
+          "score": 0.5999425053596497
+        },
+        {
+          "identifier": "HP:0001263",
+          "surface": "Mental and motor retardation",
+          "score": 0.598323404788971
+        },
+        {
+          "identifier": "HP:0001653",
+          "surface": "Mitral regurgitation",
+          "score": 0.5600565671920776
+        }
+      ]
+    },
+    {
+      "text": "early-onset seizure",
+      "gold": [
+        "HP:0001250"
+      ],
+      "top5": [
+        {
+          "identifier": "HP:0011152",
+          "surface": "Early onset absence seizures",
+          "score": 0.8501008152961731
+        },
+        {
+          "identifier": "HP:0007359",
+          "surface": "Focal-onset seizure",
+          "score": 0.8149756193161011
+        },
+        {
+          "identifier": "HP:0002121",
+          "surface": "Petit mal seizure",
+          "score": 0.7824199795722961
+        },
+        {
+          "identifier": "HP:0020220",
+          "surface": "Partial atonic seizure",
+          "score": 0.7773369550704956
+        },
+        {
+          "identifier": "HP:0002197",
+          "surface": "Generalized-onset seizure",
+          "score": 0.7770992517471313
+        }
+      ]
+    },
+    {
+      "text": "poorer development of the corpus callosum",
+      "gold": [
+        "HP:0001274"
+      ],
+      "top5": [
+        {
+          "identifier": "HP:0033725",
+          "surface": "Thin corpus callosum",
+          "score": 0.864320695400238
+        },
+        {
+          "identifier": "HP:0002079",
+          "surface": "Hypoplastic corpus callosum",
+          "score": 0.8560190796852112
+        },
+        {
+          "identifier": "HP:0007370",
+          "surface": "Hypoplastic or absent corpus callosum",
+          "score": 0.8162553906440735
+        },
+        {
+          "identifier": "HP:0007371",
+          "surface": "Atrophic corpus callosum",
+          "score": 0.8142938017845154
+        },
+        {
+          "identifier": "HP:0200012",
+          "surface": "Short corpus callosum",
+          "score": 0.7801306247711182
+        }
+      ]
+    },
+    {
+      "text": "mild hypertransaminasemia",
+      "gold": [
+        "HP:0031728"
+      ],
+      "top5": [
+        {
+          "identifier": "HP:0008180",
+          "surface": "Mildly elevated creatine phosphokinase",
+          "score": 0.6966145038604736
+        },
+        {
+          "identifier": "HP:0500134",
+          "surface": "Hypertryptophanemia",
+          "score": 0.6436145305633545
+        },
+        {
+          "identifier": "HP:0008162",
+          "surface": "Asymptomatic hyperammonemia",
+          "score": 0.624704122543335
+        },
+        {
+          "identifier": "HP:0430034",
+          "surface": "Resistant hypertension",
+          "score": 0.6244687438011169
+        },
+        {
+          "identifier": "HP:0002910",
+          "surface": "Elevated circulating hepatic transaminase activity",
+          "score": 0.6196753978729248
+        }
+      ]
+    },
+    {
+      "text": "ear anomalies",
+      "gold": [
+        "HP:0000356"
+      ],
+      "top5": [
+        {
+          "identifier": "HP:0000598",
+          "surface": "Ear anomaly",
+          "score": 0.9859801530838013
+        },
+        {
+          "identifier": "HP:0031703",
+          "surface": "Abnormal ear morphology",
+          "score": 0.9262970685958862
+        },
+        {
+          "identifier": "HP:0011267",
+          "surface": "Abnormal shape/structure of ear",
+          "score": 0.8980560302734375
+        },
+        {
+          "identifier": "HP:0000377",
+          "surface": "Abnormal form of ears",
+          "score": 0.8832584619522095
+        },
+        {
+          "identifier": "HP:0000383",
+          "surface": "Abnormality of the region around the ear",
+          "score": 0.8478928804397583
+        }
+      ]
+    },
+    {
+      "text": "laxity of the shoulders",
+      "gold": [
+        "HP:0410169"
+      ],
+      "top5": [
+        {
+          "identifier": "HP:0009742",
+          "surface": "Stiff shoulders",
+          "score": 0.8707427382469177
+        },
+        {
+          "identifier": "HP:0034665",
+          "surface": "Shoulder contracture",
+          "score": 0.7527859210968018
+        },
+        {
+          "identifier": "HP:0020152",
+          "surface": "Distal joint laxity",
+          "score": 0.7316861152648926
+        },
+        {
+          "identifier": "HP:6001224",
+          "surface": "Shoulder instability",
+          "score": 0.7310162782669067
+        },
+        {
+          "identifier": "HP:0001382",
+          "surface": "Joint ligamentous laxity",
+          "score": 0.699081301689148
+        }
+      ]
+    },
+    {
+      "text": "laxity of the shoulders",
+      "gold": [
+        "HP:0410169"
+      ],
+      "top5": [
+        {
+          "identifier": "HP:0009742",
+          "surface": "Stiff shoulders",
+          "score": 0.8707427382469177
+        },
+        {
+          "identifier": "HP:0034665",
+          "surface": "Shoulder contracture",
+          "score": 0.7527859210968018
+        },
+        {
+          "identifier": "HP:0020152",
+          "surface": "Distal joint laxity",
+          "score": 0.7316861152648926
+        },
+        {
+          "identifier": "HP:6001224",
+          "surface": "Shoulder instability",
+          "score": 0.7310162782669067
+        },
+        {
+          "identifier": "HP:0001382",
+          "surface": "Joint ligamentous laxity",
+          "score": 0.699081301689148
+        }
+      ]
+    },
+    {
+      "text": "transient hypocalcemia at birth",
+      "gold": [
+        "HP:0002901"
+      ],
+      "top5": [
+        {
+          "identifier": "HP:0008198",
+          "surface": "Neonatal hypoparathyroidism",
+          "score": 0.7877663373947144
+        },
+        {
+          "identifier": "HP:0003472",
+          "surface": "Hypocalcemic tetany",
+          "score": 0.6917687654495239
+        },
+        {
+          "identifier": "HP:0008285",
+          "surface": "Transient hypophosphatemia",
+          "score": 0.6905021071434021
+        },
+        {
+          "identifier": "HP:0000829",
+          "surface": "Hypoparathyroidism",
+          "score": 0.6499519348144531
+        },
+        {
+          "identifier": "HP:0011771",
+          "surface": "Autoimmune hypoparathyroidism",
+          "score": 0.6432973146438599
+        }
+      ]
+    },
+    {
+      "text": "mucocutaneous triad",
+      "gold": [
+        "N"
+      ],
+      "top5": [
+        {
+          "identifier": "HP:0025698",
+          "surface": "Mucin casts",
+          "score": 0.6027252078056335
+        },
+        {
+          "identifier": "HP:5210373",
+          "surface": "Unusual susceptibility to Mucorales",
+          "score": 0.6009680032730103
+        },
+        {
+          "identifier": "HP:0200146",
+          "surface": "Mucoid extracellular matrix accumulation",
+          "score": 0.6000063419342041
+        },
+        {
+          "identifier": "HP:0007606",
+          "surface": "Multiple cutaneous malignancies",
+          "score": 0.5898411273956299
+        },
+        {
+          "identifier": "HP:0012846",
+          "surface": "Multiple trichilemmomata",
+          "score": 0.5877777934074402
+        }
+      ]
+    },
+    {
+      "text": "solid tumors",
+      "gold": [
+        "HP:0033609"
+      ],
+      "top5": [
+        {
+          "identifier": "HP:0002664",
+          "surface": "Neoplasm",
+          "score": 0.794743537902832
+        },
+        {
+          "identifier": "HP:0100242",
+          "surface": "Sarcoma",
+          "score": 0.7403923273086548
+        },
+        {
+          "identifier": "HP:0030731",
+          "surface": "Carcinoma",
+          "score": 0.7356000542640686
+        },
+        {
+          "identifier": "HP:0011793",
+          "surface": "Neoplasm by anatomical site",
+          "score": 0.7107411623001099
+        },
+        {
+          "identifier": "HP:0011792",
+          "surface": "Neoplasm by histology",
+          "score": 0.671236515045166
+        }
+      ]
+    },
+    {
+      "text": "mucosal leukoplakia",
+      "gold": [
+        "HP:0005212"
+      ],
+      "top5": [
+        {
+          "identifier": "HP:0002745",
+          "surface": "Oral leukoplakia",
+          "score": 0.8853110074996948
+        },
+        {
+          "identifier": "HP:0025126",
+          "surface": "Oral hairy leukoplakia",
+          "score": 0.8071187734603882
+        },
+        {
+          "identifier": "HP:0025125",
+          "surface": "White lesion of the oral mucosa",
+          "score": 0.7726678848266602
+        },
+        {
+          "identifier": "HP:0410340",
+          "surface": "Oral mucosa epithelial hyperplasia",
+          "score": 0.754345178604126
+        },
+        {
+          "identifier": "HP:0030934",
+          "surface": "Oral erythroplakia",
+          "score": 0.7215493321418762
+        }
+      ]
+    },
+    {
+      "text": "reticulated hypopigmentation",
+      "gold": [
+        "HP:0001029"
+      ],
+      "top5": [
+        {
+          "identifier": "HP:0007588",
+          "surface": "Reticulate hyperpigmentation",
+          "score": 0.9045063257217407
+        },
+        {
+          "identifier": "HP:0007427",
+          "surface": "Reticulated skin pigmentation",
+          "score": 0.8584896326065063
+        },
+        {
+          "identifier": "HP:0007617",
+          "surface": "Fine, reticulate skin pigmentation",
+          "score": 0.8338022828102112
+        },
+        {
+          "identifier": "HP:0007456",
+          "surface": "Progressive reticulate hyperpigmentation",
+          "score": 0.828045129776001
+        },
+        {
+          "identifier": "HP:0007599",
+          "surface": "Generalized reticulate brown pigmentation",
+          "score": 0.7897199988365173
+        }
+      ]
+    },
+    {
+      "text": "reticulated hypopigmentation",
+      "gold": [
+        "HP:0001029"
+      ],
+      "top5": [
+        {
+          "identifier": "HP:0007588",
+          "surface": "Reticulate hyperpigmentation",
+          "score": 0.9045063257217407
+        },
+        {
+          "identifier": "HP:0007427",
+          "surface": "Reticulated skin pigmentation",
+          "score": 0.8584896326065063
+        },
+        {
+          "identifier": "HP:0007617",
+          "surface": "Fine, reticulate skin pigmentation",
+          "score": 0.8338022828102112
+        },
+        {
+          "identifier": "HP:0007456",
+          "surface": "Progressive reticulate hyperpigmentation",
+          "score": 0.828045129776001
+        },
+        {
+          "identifier": "HP:0007599",
+          "surface": "Generalized reticulate brown pigmentation",
+          "score": 0.7897199988365173
+        }
+      ]
+    },
+    {
+      "text": "lung involvement",
+      "gold": [
+        "HP:0002086"
+      ],
+      "top5": [
+        {
+          "identifier": "HP:0002088",
+          "surface": "Lung disease",
+          "score": 0.7219916582107544
+        },
+        {
+          "identifier": "HP:0100526",
+          "surface": "Lung cancer",
+          "score": 0.6733957529067993
+        },
+        {
+          "identifier": "HP:0002113",
+          "surface": "Lung infiltrates",
+          "score": 0.6705815196037292
+        },
+        {
+          "identifier": "HP:0006532",
+          "surface": "Pulmonary infection",
+          "score": 0.63360995054245
+        },
+        {
+          "identifier": "HP:0002089",
+          "surface": "Small lung",
+          "score": 0.629786491394043
+        }
+      ]
+    },
+    {
+      "text": "multiple bone and spine fractures",
+      "gold": [
+        "HP:0020110"
+      ],
+      "top5": [
+        {
+          "identifier": "HP:0002757",
+          "surface": "Multiple fractures",
+          "score": 0.8694347143173218
+        },
+        {
+          "identifier": "HP:0005877",
+          "surface": "Multiple small vertebral fractures",
+          "score": 0.8224039077758789
+        },
+        {
+          "identifier": "HP:0005855",
+          "surface": "Multiple fractures present at birth",
+          "score": 0.8220849633216858
+        },
+        {
+          "identifier": "HP:0006640",
+          "surface": "Multiple rib fractures",
+          "score": 0.7559745907783508
+        },
+        {
+          "identifier": "HP:0005775",
+          "surface": "Multiple skeletal anomalies",
+          "score": 0.7009848356246948
+        }
+      ]
+    },
+    {
+      "text": "difficulty in initiating movement",
+      "gold": [
+        "HP:0003698"
+      ],
+      "top5": [
+        {
+          "identifier": "HP:0002311",
+          "surface": "Poor motor coordination",
+          "score": 0.7537623643875122
+        },
+        {
+          "identifier": "HP:0001310",
+          "surface": "Lack of coordination of movement",
+          "score": 0.7533496618270874
+        },
+        {
+          "identifier": "HP:0002075",
+          "surface": "Difficulty performing quick and alternating movements",
+          "score": 0.7429752349853516
+        },
+        {
+          "identifier": "HP:0007010",
+          "surface": "Poor fine motor coordination",
+          "score": 0.7121758460998535
+        },
+        {
+          "identifier": "HP:0007668",
+          "surface": "Impaired pursuit initiation and maintenance",
+          "score": 0.694720983505249
+        }
+      ]
+    },
+    {
+      "text": "difficulty in initiating movement",
+      "gold": [
+        "HP:0003698"
+      ],
+      "top5": [
+        {
+          "identifier": "HP:0002311",
+          "surface": "Poor motor coordination",
+          "score": 0.7537623643875122
+        },
+        {
+          "identifier": "HP:0001310",
+          "surface": "Lack of coordination of movement",
+          "score": 0.7533496618270874
+        },
+        {
+          "identifier": "HP:0002075",
+          "surface": "Difficulty performing quick and alternating movements",
+          "score": 0.7429752349853516
+        },
+        {
+          "identifier": "HP:0007010",
+          "surface": "Poor fine motor coordination",
+          "score": 0.7121758460998535
+        },
+        {
+          "identifier": "HP:0007668",
+          "surface": "Impaired pursuit initiation and maintenance",
+          "score": 0.694720983505249
+        }
+      ]
+    }
+  ]
+}

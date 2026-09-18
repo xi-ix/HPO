@@ -1,0 +1,10 @@
+.cache/
+.pytest_cache/
+__pycache__/
+*.py[cod]
+*.egg-info/
+artifacts/
+outputs/
+reports/generated/
+release/HPO_lab1_models_*/
+release/*.tar.zst

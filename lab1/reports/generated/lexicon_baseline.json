@@ -1,0 +1,31 @@
+{
+  "mention": {
+    "true_positive": 669,
+    "false_positive": 189,
+    "false_negative": 527,
+    "precision": 0.7797202797202797,
+    "recall": 0.5593645484949833,
+    "f1": 0.6514118792599806
+  },
+  "document": {
+    "true_positive": 313,
+    "false_positive": 49,
+    "false_negative": 242,
+    "precision": 0.8646408839779005,
+    "recall": 0.563963963963964,
+    "f1": 0.6826608505997819
+  },
+  "diagnostics": {
+    "boundary_overlap_errors": 97,
+    "identifier_errors_at_exact_boundary": 4,
+    "gold_negated": 32,
+    "gold_compound": 16,
+    "gold_no_id": 26
+  },
+  "experiment": {
+    "name": "lexicon_baseline",
+    "training_documents": 64,
+    "validation_documents": 16,
+    "prediction_entities": 909
+  }
+}

@@ -1,0 +1,13 @@
+python=3.10.19
+torch=2.6.0+cu124
+cuda=12.4
+transformers=4.57.0
+numpy=2.2.6
+scipy=1.15.2
+scikit-learn=1.7.2
+faiss-cpu=1.15.1
+sentence-transformers=5.7.0
+seqeval=1.2.2
+accelerate=1.13.0
+pytest=9.1.1
+ruff=0.16.8
