@@ -53,6 +53,23 @@ accuracy=0.9644、precision=0.4179、recall=0.8750。
 - 数据没有家族史标签，且正式任务要求全文表型而非患者归属，因此未报告家族史过滤
   accuracy，也未过滤家族史 mention。
 
+## 5. 验证集预测文件
+
+以下文件均对应固定 `seed=42` 的 16 篇文档验证集，文档 ID 由
+`configs/split_seed42.json` 中的 `validation_pmc_ids` 定义。每行是一篇文档，包含预测的
+`entities` 和空的 `association`；它们是评估输入，不是新的训练数据。
+
+| 文件 | 含义 | 验证集实体数 |
+|---|---|---:|
+| `outputs/validation_lexicon.jsonl` | 原始 HPO/训练 mention 词典基线 | 909 |
+| `outputs/validation_lexicon_inflected.jsonl` | 词典基线加保守单复数扩展 | 957 |
+| `outputs/validation_dual_channel.jsonl` | 最终 BioBERT + SapBERT 双通道结果 | 1,086 |
+| `outputs/validation_dual_weight000.jsonl` | NER 不使用类别权重的消融 | 1,062 |
+| `outputs/validation_dual_weight025.jsonl` | NER 类别权重指数 0.25 的消融 | 1,059 |
+| `outputs/validation_dual_weight035.jsonl` | NER 类别权重指数 0.35 的消融 | 1,058 |
+
+这些文件与同名 `reports/generated/*.json` 指标报告配套使用。验证集金标准仍来自原始
+`PatientPheX-train.jsonl`，通过固定划分读取；预测文件本身不复制或修改金标准。
+
 详细机器可读结果位于 `reports/generated/`。A 榜没有公开答案，不能在本地计算分数；
 `outputs/PatientPheX-A-task1-pred.jsonl` 仅报告格式校验通过，线上成绩需提交平台获得。
-
