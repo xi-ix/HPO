@@ -5,6 +5,8 @@ __pycache__/
 *.egg-info/
 artifacts/
 outputs/
+!lab1/outputs/
+!lab1/outputs/validation_*.jsonl
 reports/generated/
 release/HPO_lab1_models_*/
 release/*.tar.zst
